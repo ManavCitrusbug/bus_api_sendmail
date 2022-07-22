@@ -1,0 +1,292 @@
+.personal-chart-v-tab-section .personal-chart-v-tab-div {
+  padding: 62px 0;
+  margin: 0;
+  position: relative;
+}
+
+.personal-chart-v-tab-root {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.personal-chart-v-tab-root .custom-title-div h2 {
+  margin: 0 0 25px 0;
+}
+
+.personal-chart-v-tab-root .custom-title-div .header-div-box h4 {
+  font-weight: 500;
+  font-size: 28px;
+  color: #222;
+  letter-spacing: 0;
+  line-height: 1.2;
+  margin: 0 0 5px 0;
+  display: block;
+  font-family: "Montserrat", sans-serif;
+}
+
+.personal-chart-v-tab-root .custom-title-div .header-div-box p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #888;
+  letter-spacing: 0;
+  line-height: 1.5;
+  margin: 0 0 5px 0;
+}
+
+.vertical-tabs-root-common {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+.vertical-tabs-root-common .vertical-tabs-header-common {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 270px;
+}
+
+.vertical-tabs-root-common .vertical-tabs-header-common .nav-tabs {
+  border: none;
+  width: 100%;
+}
+
+.vertical-tabs-root-common .vertical-tabs-header-common .nav-tabs .nav-item {
+  width: 100%;
+}
+
+.vertical-tabs-root-common .vertical-tabs-header-common .nav-tabs .nav-item .nav-link {
+  border-radius: 5px 0 0 5px;
+  background-color: #fff;
+  border: none;
+  padding: 10px 20px 8px 20px;
+  margin: 0 0 20px 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #888;
+  min-height: 60px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-shadow: 0 10px 18px 0 rgba(0, 0, 0, 0.06);
+          box-shadow: 0 10px 18px 0 rgba(0, 0, 0, 0.06);
+}
+
+.vertical-tabs-root-common .vertical-tabs-header-common .nav-tabs .nav-item .nav-link.active {
+  color: #f91a6c;
+  z-index: 3;
+  position: relative;
+}
+
+.vertical-tabs-root-common .vertical-tabs-header-common .nav-tabs .nav-item .nav-link.active::before {
+  content: "";
+  position: absolute;
+  right: -15px;
+  top: 0;
+  height: 100%;
+  width: 15px;
+  background-color: #fff;
+}
+
+.vertical-tabs-root-common .vertical-tabs-body {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: calc(100% - 270px);
+}
+
+.vertical-tabs-root-common .vertical-tabs-body .tab-content {
+  width: 100%;
+}
+
+.vertical-tabs-root-common .vertical-tabs-body .vertical-tab-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  padding: 20px 30px;
+  position: relative;
+  background: #fff;
+  -webkit-box-shadow: 0 10px 18px 0 rgba(0, 0, 0, 0.06);
+          box-shadow: 0 10px 18px 0 rgba(0, 0, 0, 0.06);
+  border-radius: 0 5px 5px 5px;
+  min-height: 180px;
+}
+
+.vertical-tabs-root-common .vertical-tabs-body .vertical-tab-inner.phone-number-tab-inner {
+  max-width: 450px;
+}
+
+.vertical-tabs-root-common .vertical-tabs-body .vertical-tab-inner .prag-top-text-div {
+  padding: 0;
+  margin: 0 0 25px 0;
+  position: relative;
+}
+
+.vertical-tabs-root-common .vertical-tabs-body .vertical-tab-inner .prag-top-text-div p {
+  font-size: 12px;
+  color: #bfbfbf;
+  letter-spacing: 0;
+  line-height: 21px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.vertical-tabs-root-common .vertical-tabs-body .vertical-tab-inner .prag-top-text-div p .link.link-btn {
+  color: #f91a6c;
+}
+
+.vertical-tabs-root-common .vertical-tabs-body .vertical-tab-inner .vertical-tab-form-div {
+  width: 100%;
+}
+
+.vertical-tabs-root-common .vertical-tabs-body .vertical-tab-inner .vertical-tab-form-div .mx-width-750 {
+  max-width: 750px;
+}
+
+.vertical-tabs-root-common .vertical-tabs-body .vertical-tab-inner .vertical-tab-form-div .mx-width-360 {
+  max-width: 360px;
+}
+
+.vertical-tabs-root-common .vertical-tabs-body .vertical-tab-inner .vertical-tab-form-div .btn-submit-chart-div {
+  padding: 0;
+  margin: 0 0 10px 0;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.vertical-tabs-root-common .vertical-tabs-body .vertical-tab-inner .vertical-tab-form-div .btn-submit-chart-div .error-message-bottom-all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 0 0 0 20px;
+}
+
+.vertical-tabs-root-common .vertical-tabs-body .vertical-tab-inner .vertical-tab-form-div .btn-submit-chart-div .error-message-bottom-all .text-span {
+  color: #f91a6c;
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+}
+
+@media (max-width: 767px) {
+  .personal-chart-v-tab-section .personal-chart-v-tab-div {
+    padding: 10px 0 50px 0;
+  }
+  .personal-chart-v-tab-root .custom-title-div h2 {
+    margin: 0 0 15px 0;
+  }
+  .personal-chart-v-tab-root .custom-title-div .header-div-box h4 {
+    font-size: 18px;
+  }
+  .personal-chart-v-tab-root .custom-title-div .header-div-box p {
+    font-size: 12px;
+  }
+  .vertical-tabs-root-common .vertical-tabs-header-common {
+    width: 100%;
+  }
+  .vertical-tabs-root-common .vertical-tabs-header-common .nav-tabs .nav-item .nav-link {
+    border-radius: 5px;
+    padding: 6px 15px 4px 15px;
+    margin: 0 0 10px 0;
+    font-size: 14px;
+    min-height: 50px;
+  }
+  .vertical-tabs-root-common .vertical-tabs-header-common .nav-tabs .nav-item .nav-link.active::before {
+    right: 0;
+    width: 0;
+    display: none;
+  }
+  .vertical-tabs-root-common .vertical-tabs-body {
+    width: 100%;
+  }
+  .vertical-tabs-root-common .vertical-tabs-body .vertical-tab-inner {
+    border-radius: 5px;
+    padding: 20px 20px;
+  }
+  .vertical-tabs-root-common .vertical-tabs-body .vertical-tab-inner .vertical-tab-form-div .btn-submit-chart-div .btn.btn-color-primary {
+    min-width: 110px;
+    font-size: 12px;
+    min-height: 44px;
+    padding: 6px 20px 5px 20px;
+  }
+  .vertical-tabs-root-common .vertical-tabs-body .vertical-tab-inner .vertical-tab-form-div .btn-submit-chart-div .error-message-bottom-all {
+    padding: 0 0 0 10px;
+  }
+  .vertical-tabs-root-common .vertical-tabs-body .vertical-tab-inner .vertical-tab-form-div .btn-submit-chart-div .error-message-bottom-all .text-span {
+    font-size: 11px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .personal-chart-v-tab-section .personal-chart-v-tab-div {
+    padding: 10px 0 50px 0;
+  }
+  .personal-chart-v-tab-root .custom-title-div h2 {
+    margin: 0 0 15px 0;
+  }
+  .personal-chart-v-tab-root .custom-title-div .header-div-box h4 {
+    font-size: 18px;
+  }
+  .personal-chart-v-tab-root .custom-title-div .header-div-box p {
+    font-size: 12px;
+  }
+  .vertical-tabs-root-common .vertical-tabs-header-common {
+    width: 220px;
+  }
+  .vertical-tabs-root-common .vertical-tabs-header-common .nav-tabs .nav-item .nav-link {
+    padding: 10px 15px 8px 15px;
+    margin: 0 0 15px 0;
+    font-size: 14px;
+    min-height: 50px;
+  }
+  .vertical-tabs-root-common .vertical-tabs-body {
+    width: calc(100% - 220px);
+  }
+}
+/*# sourceMappingURL=verticle-tab-style.css.map */

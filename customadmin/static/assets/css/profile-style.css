@@ -1,0 +1,574 @@
+.profile-v-tab-section .profile-v-tab-div {
+  padding: 62px 0;
+  margin: 0;
+  position: relative;
+}
+
+.profile-pic-upload {
+  position: relative;
+  padding: 20px 0 20px 0;
+  margin: 0 0 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.profile-pic-upload .circle-img-div {
+  width: 127px;
+  height: 127px;
+  position: relative;
+  border-radius: 100%;
+  display: block;
+}
+
+.profile-pic-upload .circle-img-div .profile-pic {
+  width: 125px;
+  height: 125px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 100%;
+  display: block;
+  background-color: #f6f8fb;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4);
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4);
+}
+
+.profile-pic-upload .circle-img-div label.filelabel-icon {
+  height: 38px;
+  width: 38px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 100%;
+  font-size: 14px;
+  position: absolute;
+  top: 5px;
+  right: -5px;
+  cursor: pointer;
+  border: 3px solid #f0f0f0;
+}
+
+.profile-pic-upload .circle-img-div .file-upload {
+  display: none;
+}
+
+.profile-pic-upload .circle-img-div img {
+  max-width: 100%;
+  height: auto;
+}
+
+.profile-pic-upload .circle-img-div .upload-button {
+  font-size: 1.2em;
+}
+
+.profile-pic-upload .circle-img-div .upload-button:hover {
+  -webkit-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  color: #999;
+}
+
+.profile-pic-upload .circle-img-div i.material-icons {
+  font-size: 24px;
+}
+
+.profile-pic-upload .text-title-div {
+  padding: 0 0 0 25px;
+  margin: 0;
+  position: relative;
+  width: calc(100% - 127px);
+}
+
+.profile-pic-upload .text-title-div h3 {
+  font-weight: 500;
+  font-size: 28px;
+  color: #222;
+  letter-spacing: 0;
+  line-height: 1.4;
+  font-family: "Montserrat", sans-serif;
+  margin: 0 0 0 0;
+}
+
+.profile-pic-upload .text-title-div p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #888;
+  letter-spacing: 0;
+  line-height: 1.5;
+}
+
+.profile-v-tab-root {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.profile-v-tab-root .vertical-tabs-root-common .vertical-tabs-header-common .nav-tabs .nav-item .nav-link {
+  margin: 0 0 2px 0;
+}
+
+.profile-v-tab-root .vertical-tabs-root-common .vertical-tabs-body .vertical-tab-inner {
+  padding: 45px 30px 20px 30px;
+  min-height: 300px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.profile-v-tab-root .vertical-tabs-root-common .vertical-tabs-body .vertical-tab-inner .mb-20 {
+  margin-bottom: 20px;
+}
+
+.profile-v-tab-root .vertical-tabs-root-common .vertical-tabs-body .vertical-tab-inner.bookings-calender-tab-inner {
+  padding-top: 35px;
+}
+
+.search-profile-filter-div {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  width: 100%;
+}
+
+.search-profile-filter-div .search-v-form-div {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  width: 100%;
+}
+
+.search-profile-filter-div .search-v-form-div .width-100-m-50 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 calc(100% - 70px);
+          flex: 0 0 calc(100% - 70px);
+  max-width: calc(100% - 70px);
+}
+
+.search-profile-filter-div .search-v-form-div .width-50px {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 70px;
+          flex: 0 0 70px;
+  max-width: 70px;
+}
+
+.search-profile-filter-div .search-v-form-div .btn-pro-search-div {
+  padding: 24px 0 0 0;
+}
+
+.search-profile-filter-div .search-v-form-div .btn-pro-search-div .btn-pro-icon-search {
+  background: #54c801;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+  border: 1px solid #54c801;
+  letter-spacing: 0;
+  min-height: 50px;
+  padding: 6px 12px 5px 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+  width: 100%;
+  position: relative;
+}
+
+.search-profile-filter-div .search-v-form-div .btn-pro-search-div .btn-pro-icon-search:hover, .search-profile-filter-div .search-v-form-div .btn-pro-search-div .btn-pro-icon-search:focus {
+  color: #fff;
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+  -webkit-box-shadow: 0 5px 10px 0 rgba(84, 200, 1, 0.2);
+          box-shadow: 0 5px 10px 0 rgba(84, 200, 1, 0.2);
+}
+
+.transactions-list-div {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.transactions-list-div .text-line-center-div {
+  padding: 0;
+  margin: 0 0 5px 0;
+  position: relative;
+}
+
+.transactions-list-div .text-line-center-div .title-div {
+  padding: 0;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+.transactions-list-div .text-line-center-div .title-div::before {
+  content: "";
+  height: 1px;
+  background-color: #54c801;
+  display: block;
+  width: 100%;
+  position: absolute;
+}
+
+.transactions-list-div .text-line-center-div .title-div span.text {
+  font-weight: 700;
+  font-size: 10px;
+  color: #515153;
+  letter-spacing: 0;
+  display: inline-block;
+  padding: 0 20px 0 0;
+  position: relative;
+  z-index: 2;
+  background-color: #fff;
+}
+
+.transactions-list-div .transactions-list-root {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.transactions-list-div .transactions-list-root .transactions-pay-box {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  border-bottom: 1px solid rgba(151, 151, 151, 0.18);
+}
+
+.transactions-list-div .transactions-list-root .transactions-pay-box:last-child {
+  border-bottom: 0;
+}
+
+.transactions-list-div .transactions-list-root .transactions-pay-box .transactions-pay-row {
+  padding: 15px 0;
+  margin: 0;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.transactions-list-div .transactions-list-root .transactions-pay-box .transactions-pay-row p {
+  font-weight: 500;
+  font-size: 16px;
+  color: #b7b7b7;
+  letter-spacing: 0;
+  display: inline-block;
+  width: 100%;
+}
+
+.transactions-list-div .transactions-list-root .transactions-pay-box .transactions-pay-row .transactions-pay-left {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  width: 60%;
+}
+
+.transactions-list-div .transactions-list-root .transactions-pay-box .transactions-pay-row .transactions-pay-left h5 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #515153;
+  letter-spacing: 0;
+  display: inline-block;
+  width: 100%;
+}
+
+.transactions-list-div .transactions-list-root .transactions-pay-box .transactions-pay-row .transactions-pay-right {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  width: 40%;
+}
+
+.transactions-list-div .transactions-list-root .transactions-pay-box .transactions-pay-row .transactions-pay-right h4 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #54c801;
+  letter-spacing: 0;
+  display: inline-block;
+  width: 100%;
+  text-align: right;
+}
+
+.transactions-list-div .transactions-list-root .transactions-pay-box .transactions-pay-row .transactions-pay-right p {
+  text-align: right;
+}
+
+.transactions-list-div .transactions-list-root .pagination-root {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-bottom: 0;
+}
+
+.transactions-list-div .transactions-list-root .pagination-root .pagination-ul {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.calender-pro-root {
+  width: 100%;
+  position: relative;
+}
+
+.calender-pro-root .full-calendar-custom-div .fc-border-separate tr.fc-last th {
+  background-color: #fff;
+}
+
+.calender-pro-root .full-calendar-custom-div .fc-header .fc-header-left h2 {
+  font-size: 20px;
+  padding: 4px 0;
+}
+
+.wallet-card-div-root {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.wallet-card-div-root .title-top-row {
+  padding: 0;
+  margin: 0 0 10px 0;
+  position: relative;
+}
+
+.wallet-card-div-root .title-top-row span.title-span {
+  font-weight: 700;
+  font-size: 10px;
+  color: #515153;
+  letter-spacing: 0;
+}
+
+.wallet-card-div-root .wc-cc-root {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.wallet-card-div-root .wc-cc-root .card-number-form-group .paycard-method-image-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.wallet-card-div-root .wc-cc-root .card-number-form-group .paycard-method-image-list .paycard-method-img-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 12px 12px 0;
+}
+
+.wallet-card-div-root .wc-cc-root .card-number-form-group .paycard-method-image-list .img-pay-method {
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.wallet-card-div-root .wc-cc-root .cvv-number-form-group .cvv-row-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+.wallet-card-div-root .wc-cc-root .cvv-number-form-group .cvv-row-group .form-control {
+  width: 100px;
+  margin: 0 30px 0 0;
+}
+
+.wallet-card-div-root .wc-cc-root .cvv-number-form-group .cvv-row-group .card-cvv-image-div {
+  padding: 0;
+}
+
+.wallet-card-div-root .wc-cc-root .cvv-number-form-group .cvv-row-group .card-cvv-image-div .img-pay-method {
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+@media (max-width: 767px) {
+  .profile-v-tab-section .profile-v-tab-div {
+    padding: 0 0 30px 0;
+  }
+  .profile-v-tab-root .vertical-tabs-root-common .vertical-tabs-header-common .nav-tabs {
+    margin: 0 0 20px 0;
+  }
+  .profile-v-tab-root .vertical-tabs-root-common .vertical-tabs-body .vertical-tab-inner {
+    padding: 30px 20px 20px 20px;
+    min-height: 150px;
+  }
+  .profile-v-tab-root .vertical-tabs-root-common .vertical-tabs-body .vertical-tab-inner.bookings-calender-tab-inner {
+    padding-top: 20px;
+  }
+  .profile-pic-upload {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .profile-pic-upload .circle-img-div {
+    margin: 0 0 20px 0;
+  }
+  .profile-pic-upload .text-title-div {
+    padding: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .profile-pic-upload .text-title-div h3 {
+    font-size: 18px;
+  }
+  .profile-pic-upload .text-title-div p {
+    font-size: 12px;
+  }
+  .search-profile-filter-div .search-v-form-div .width-100-m-50 {
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+    max-width: 100%;
+  }
+  .search-profile-filter-div .search-v-form-div .width-50px {
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+    max-width: 100%;
+  }
+  .search-profile-filter-div .search-v-form-div .form-group {
+    margin-bottom: 15px;
+  }
+  .search-profile-filter-div .search-v-form-div .btn-pro-search-div {
+    padding: 0 0 30px 0;
+  }
+  .transactions-list-div .transactions-list-root .transactions-pay-box .transactions-pay-row p {
+    font-size: 12px;
+  }
+  .transactions-list-div .transactions-list-root .transactions-pay-box .transactions-pay-row .transactions-pay-left h5 {
+    font-size: 12px;
+  }
+  .transactions-list-div .transactions-list-root .transactions-pay-box .transactions-pay-row .transactions-pay-right h4 {
+    font-size: 12px;
+  }
+  .wallet-card-div-root .wc-cc-root .card-number-form-group .paycard-method-image-list {
+    padding: 5px 0 0 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .profile-v-tab-section .profile-v-tab-div {
+    padding: 0 0 30px 0;
+  }
+  .profile-pic-upload {
+    position: relative;
+    padding: 0 0 10px 0;
+  }
+  .calender-pro-root {
+    width: 100%;
+    position: relative;
+  }
+  .calender-pro-root .full-calendar-custom-div .fc-event-hori {
+    padding: 0 5px;
+    min-height: 19px;
+    border-left: 2px solid !important;
+  }
+  .calender-pro-root .full-calendar-custom-div .fc-event-inner {
+    font-size: 8px;
+    line-height: 12px;
+  }
+  .calender-pro-root .full-calendar-custom-div .fc-header {
+    margin: 0 0 10px 0;
+  }
+  .calender-pro-root .full-calendar-custom-div .fc-header .fc-header-left h2 {
+    font-size: 18px;
+  }
+  .calender-pro-root .full-calendar-custom-div .fc-week .fc-day > div .fc-day-number {
+    min-width: 14px;
+    padding: 2px;
+    font-size: 9px;
+  }
+  .calender-pro-root .full-calendar-custom-div .fc-header-title h2 {
+    font-size: 12px;
+    padding: 0 10px;
+  }
+  .calender-pro-root .full-calendar-custom-div .fc-view {
+    overflow-x: auto;
+  }
+  .calender-pro-root .full-calendar-custom-div .fc-view .fc-border-separate tr.fc-last th {
+    min-width: 75px;
+  }
+  .calender-pro-root .full-calendar-custom-div .fc-view.fc-view-agendaWeek .fc-border-separate tr.fc-last th {
+    min-width: auto;
+  }
+  .calender-pro-root .full-calendar-custom-div .fc-view.fc-view-agendaDay .fc-border-separate tr.fc-last th {
+    min-width: auto;
+  }
+  .calender-pro-root .full-calendar-custom-div .fc-agenda .fc-agenda-axis {
+    font-size: 10px;
+  }
+  .calender-pro-root .full-calendar-custom-div .fc td.fc-day > div,
+  .calender-pro-root .full-calendar-custom-div .fc th.fc-day div {
+    min-height: 50px !important;
+  }
+  .profile-v-tab-root .vertical-tabs-root-common .vertical-tabs-header-common .nav-tabs {
+    margin: 0 0 20px 0;
+  }
+  .profile-v-tab-root .vertical-tabs-root-common .vertical-tabs-body .vertical-tab-inner {
+    padding: 25px 20px 20px 20px;
+    min-height: 150px;
+  }
+  .profile-v-tab-root .vertical-tabs-root-common .vertical-tabs-body .vertical-tab-inner.bookings-calender-tab-inner {
+    padding-top: 15px;
+  }
+  .transactions-list-div .transactions-list-root .transactions-pay-box .transactions-pay-row p {
+    font-size: 12px;
+  }
+  .transactions-list-div .transactions-list-root .transactions-pay-box .transactions-pay-row .transactions-pay-left h5 {
+    font-size: 12px;
+  }
+  .transactions-list-div .transactions-list-root .transactions-pay-box .transactions-pay-row .transactions-pay-right h4 {
+    font-size: 12px;
+  }
+}
+/*# sourceMappingURL=profile-style.css.map */

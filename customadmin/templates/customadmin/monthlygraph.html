@@ -1,0 +1,92 @@
+{% extends 'customadmin/index.html' %}
+
+{% load static %}
+{% load admin_extras %}
+{% load misc_filters %}
+{% load i18n %}
+
+{% load admin_extras %}
+{% block graph %}
+<br>
+<form method='POST'>
+    {% csrf_token %}
+    
+
+    <select name="month" id="month" class="m-auto">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+      <option value="9">9</option>
+      <option value="10">10</option>
+      <option value="11">11</option>
+      <option value="12">12</option>
+    </select>&nbsp;&nbsp;&nbsp;&nbsp;
+    <select name="year" id="year" >
+      <option value="2019">2019</option>
+      <option value="2020">2020</option>
+      <option value="2021">2021</option>
+      <option value="2022">2022</option>
+      
+    </select> &nbsp;&nbsp;&nbsp;&nbsp;
+      
+      <button type="submit" class="btn btn-success" >Search</button> 
+  </form><br>  
+  <canvas id="myChart" width="150" height="50"></canvas>
+  <script src="{% static 'customadmin/js/plugins/chartJs/Chart.min.js' %}"></script>
+  
+  <script>
+  const ctx = document.getElementById('myChart').getContext('2d'); 
+  var labals=['January{{year}}','February{{year}}','march{{year}}','April{{year}}','May{{year}}','June{{year}}','July{{year}}','Augest{{year}}','Spetember{{year}}','Octomber{{year}}','November{{year}}','December{{year}}']
+
+  var ary=new Array()
+  ary=[0,0,0,0,0,0,0,0,0,0,0,0]
+ 
+  ary[{{month}}-1]={{listtotal}}
+
+
+
+  const myChart = new Chart(ctx, {
+      type: 'bar',
+      data: {
+       
+          labels: labals,
+
+          datasets: [{
+
+              label: 'Bus Charts  ',
+              
+              data:ary,
+          
+              backgroundColor: [
+                  'rgba(255, 99, 132, 0.2)',
+                  'rgba(54, 162, 235, 0.2)',
+                  'rgba(255, 206, 86, 0.2)',
+                  'rgba(75, 192, 192, 0.2)',
+                  'rgba(153, 102, 255, 0.2)',
+                  'rgba(255, 159, 64, 0.2)'
+              ],
+              borderColor: [
+                  'rgba(255, 99, 132, 1)',
+                  'rgba(54, 162, 235, 1)',
+                  'rgba(255, 206, 86, 1)',
+                  'rgba(75, 192, 192, 1)',
+                  'rgba(153, 102, 255, 1)',
+                  'rgba(255, 159, 64, 1)'
+              ],
+              borderWidth: 1
+          }]
+      },
+      options: {
+        legend: {display: false},
+        scales: {
+          yAxes: [{ticks: {min: 1, max:10}}],
+        }
+      }
+  });
+  </script>
+{% endblock %}

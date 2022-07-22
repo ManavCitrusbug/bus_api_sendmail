@@ -1,0 +1,78 @@
+{% extends 'customadmin/change_list.html' %}
+{% load static %}
+{% load admin_extras %}
+{% load misc_filters %}
+{% load i18n %}
+{% load crispy_forms_tags %}
+
+{% block page_content %}
+    {% csrf_token %}
+
+    <div class="ibox float-e-margins">
+        
+        <div class="ibox-content">
+            <div class="table-responsive">
+                <table class="table table-striped table-bordered table-hover" id="{{ opts.model_name }}-table">
+                    <thead>
+                        <tr>
+                            <td colspan="2" class="h5 text-center border-white">{{addbus_detail.transport_name|capfirst}}&nbsp;&nbsp;Travels</td>
+                        </tr>
+                    </thead>
+                    <tfoot>
+                    </tfoot>
+                    <tbody>
+                        <tr>
+                            <td class="h5 text-left" colspan="2">Addbus Detail</td>
+                        </tr>
+                            <tr class="text-left">
+                                
+                                <td class="h6">
+                                    Bus Name : {{addbus_detail.transport_name}}
+                                    <hr>
+                                    Bus Number:{{addbus_detail.number_plate}}
+                                    <hr>
+                                    Seats : {{addbus_detail.seats_available}}
+                                    <hr>
+                                    price : {{addbus_detail.price_per_person}}
+                                    <hr>
+                                    Category : {{addbus_detail.bus_category}}
+                                    <hr>
+                                    Date_Time : {{addbus_detail.date_time_dpt}}
+                                    <hr>
+                                   
+                                </td>
+                            </tr>
+                       
+                       
+                            
+                    </tbody>
+
+                
+                </table>
+                <caption >List of Pessenger</caption>  
+                <table class="table caption-top">
+                  
+                    <thead>
+                      <tr>
+                        <th scope="col"  class="text-center">No</th>
+                        <th scope="col"  class="text-center">Pessenger Name</th>
+                        <th scope="col"  class="text-center">User</th>
+                    
+                      </tr>
+                    </thead>
+                    <tbody>
+                        {% for i in addbus_detail_1 %}
+                        <tr class="text-center">
+                          <th scope="row">{{i.id}}</th>
+                          <td>{{i.name}}</td> <br>
+                          <td>{{i.user}}</td> <br>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                  </table>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
+

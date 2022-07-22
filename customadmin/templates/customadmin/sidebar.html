@@ -1,0 +1,79 @@
+{% load static %}
+{% load admin_extras %}
+
+<nav class="navbar-default navbar-static-side" role="navigation">
+    <div class="sidebar-collapse">
+        <ul class="nav metismenu" id="side-menu">
+
+            <li class="nav-header">
+                <a href="{% url 'customadmin:dashboard' %}">
+                    <img class="nav-image" src="{% static 'assets/images/logo.jpg' %}" width="100%" />
+                </a>
+               <div class="dropdown profile-element">
+                    <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                        <span class="clear">
+                            <span class="block m-t-xs">
+                                <strong class="font-bold">
+                                    {% if request.user.is_authenticated %}{{ request.user }} {% endif%}
+                                </strong>
+                            </span>
+                            <span class="text-muted text-xs block">Co-Founder
+                                <b class="caret"></b>
+                            </span>
+                        </span>
+                    </a>
+                    <ul class="dropdown-menu animated fadeInRight m-t-xs">
+                        {% if request.user.is_authenticated %}
+                        <li>
+                            <a href="{% url 'auth:auth_logout' %}" class="nav-label">Logout</a>
+                        </li>
+                        {% endif%}
+                    </ul>
+                </div> 
+                <div class="logo-element">
+                    UC
+                </div>
+            </li>
+
+
+
+            {% if perms.users or request.user.is_staff %}
+            <li {% if 'users/' in request.path %}class="active" {% endif %}>
+                <a href="{% url 'customadmin:user-list' %}">
+                    <i class="fa fa-user fa-fw fa-2x"></i>
+                    <span class="nav-label">Users</span>
+                </a>
+            </li>
+            <li {% if 'addbus/' in request.path %}class="active" {% endif %}>
+                <a href="{% url 'customadmin:transport-list' %}">
+                    <i class="fa fa-user fa-fw fa-2x"></i>
+                    <span class="nav-label">Add Bus</span>
+                </a>
+            </li>
+            <li {% if 'pessenger/' in request.path %}class="active" {% endif %}>
+                <a href="{% url 'customadmin:pessenger-list' %}">
+                    <i class="fa fa-user fa-fw fa-2x"></i>
+                    <span class="nav-label">Pessenger List</span>
+                </a>
+            </li>
+            <li {% if 'category/' in request.path %}class="active" {% endif %}>
+                <a href="{% url 'customadmin:category-list' %}">
+                    <i class="fa fa-user fa-fw fa-2x"></i>
+                    <span class="nav-label">category</span>
+                </a>
+            </li>
+            <li {% if 'journey/' in request.path %}class="active" {% endif %}>
+                <a href="{% url 'customadmin:journey-list' %}">
+                    <i class="fa fa-user fa-fw fa-2x"></i>
+                    <span class="nav-label">Journey</span>
+                </a>
+            </li>
+           
+            
+         
+           
+            {% endif %}
+        </ul>
+
+    </div>
+</nav>

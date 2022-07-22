@@ -1,0 +1,85 @@
+{% extends 'customadmin/change_list.html' %}
+{% load static %}
+{% load admin_extras %}
+{% load misc_filters %}
+{% load i18n %}
+
+
+{% block page_content %}
+    {% csrf_token %}
+
+
+
+  
+    <div class="ibox float-e-margins">
+        <div class="ibox-content">
+            <div class="table-responsive">
+                <table class="tagvble table-striped table-bordered table-hover w-100" id="{{ opts.model_name }}-table">
+                    <thead>
+                        <tr>
+                            <th class="text-center">Bus Name </th>
+             
+                            <th class="text-center">Pessenger Name</th>
+                    
+                            <th class="text-center">Address</th>
+                      
+                            <th class="text-center">Phone Number </th>
+                    
+                            <th class="text-center">Age</th>
+                           
+                            <th class="text-center">Bookded Ticket Date and Time</th>
+                            <th class="text-center">payment</th>
+                            <th class="text-center">Login User</th>
+                    
+                        </tr>
+                    </thead>
+                    
+                    <tbody>
+                        {% for o in object_list %}
+                        <tr>
+                            <td class="text-center">{{ o.busname }}</td>
+                            <td class="text-center">{{ o.name }}</td>
+                            <td class="text-center">{{ o.address }}</td>
+                            <td class="text-center">{{ o.phone}}</td>
+                            <td class="text-center">{{ o.age }}</td>
+                            <td class="text-center">{{ o.book_date_time }}</td>
+                            <td class="text-center">{{ o.paid }}</td>
+                            <td class="text-center">{{ o.user }}</td>
+                            
+                           
+                           
+                      
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+
+                </table>
+            </div>
+        </div>
+    </div>  
+
+{% endblock %}
+
+
+
+{% comment %} {% block js %} {% endcomment %}
+{{ block.super }}
+{% comment %} <script src="{% static 'customadmin/js/userroles.js' %}"></script>
+
+<script>
+    var pagination_url = "{% url opts|admin_urlname:'user-list-ajax' %}";
+    $(function () {
+        userroles.user.index();
+    });
+</script>
+{% endblock %} {% endcomment %}
+
+
+
+ <div class="ibox-title">
+    <div class="ibox-tools">
+        {% if perms.users.add_user %}
+        <a href="{% url opts|admin_urlname:'create' %}" class="btn btn-primary btn-lg"><i class="fa fa-plus"></i> Add {{ opts.verbose_name|capfirst }}</a> 
+        {% endif %}
+    </div>
+</div> 

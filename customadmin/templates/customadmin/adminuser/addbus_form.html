@@ -1,0 +1,95 @@
+{% extends 'customadmin/change_form.html' %}
+{% load static %}
+{% load widget_tweaks %}
+{% load admin_extras %}
+{% load misc_filters %}
+{% load crispy_forms_tags %}
+{% load i18n %}
+
+
+{% block page_content %}
+    <form   id="{{ opts.model_name }}-form" action="" method="post" enctype="multipart/form-data" autocomplete="off" novalidate>
+
+        {% include "customadmin/partials/form_hidden_fields.html" %}
+
+        <div class="ibox float-e-margins">
+
+            {% include "customadmin/partials/ibox_title.html" with ibox_title="Login Credentials" icon_class="fas fa-sign-in-alt" only %}
+
+            <div class="ibox-content">
+
+                <div class="row">
+                    <div class="col-sm-6">
+                        {{ form.transport_name|as_crispy_field }}
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    
+                    <div class="col-sm-6">
+                        {{ form.number_plate|as_crispy_field }}
+                    </div>
+                    
+                    <div class="col-sm-6">
+                        {{ form.seats_available|as_crispy_field }}
+                    </div>
+                    
+                    
+                </div>
+
+
+            </div>
+            <!-- /ibox-content -->
+
+        </div>
+        <!-- /ibox --> 
+
+        <div class="ibox float-e-margins">
+
+            {% include "customadmin/partials/ibox_title.html" with ibox_title="Personal Info" icon_class="fas fa-user" only %}
+
+            <div class="ibox-content">
+
+                <div class="row">
+                    <div class="col-sm-6">
+                        {{ form.price_per_person|as_crispy_field }}
+                    </div>
+                    <div class="col-sm-6">
+                        {{ form.bus_category|as_crispy_field }}
+                    </div>
+                    <div class="col-sm-6">
+                        {{ form.date_time_dpt|as_crispy_field }}
+                    </div>
+                    
+                </div>
+
+                <br>
+
+             
+               
+
+                
+            </div>
+            <!-- /ibox-content -->
+
+        </div>
+        <!-- /ibox -->
+        <!-- /ibox -->
+ 
+        {% include "customadmin/partials/form_footer_bus.html" %}
+
+    </form>
+
+{% endblock %}
+
+
+{% block js %}
+{{ block.super }}
+{% comment %} <script src="{% static 'customadm in/js/userroles.js' %}"></script>
+
+<script>
+    $(function() {
+        userroles.user.details();
+    });
+</script>  {% endcomment %}
+{% endblock %} 

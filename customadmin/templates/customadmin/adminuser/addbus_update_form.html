@@ -1,0 +1,94 @@
+{% extends 'customadmin/change_form.html' %}
+{% load static %}
+{% load widget_tweaks %}
+{% load admin_extras %}
+{% load misc_filters %}
+{% load crispy_forms_tags %}
+{% load i18n %}
+
+
+{% block page_content %}
+    <form id="{{ opts.model_name }}-form" action="" method="post" enctype="multipart/form-data" autocomplete="off">
+
+        {% include "customadmin/partials/form_hidden_fields.html" %}
+
+        <div class="ibox float-e-margins">
+
+            {% include "customadmin/partials/ibox_title.html" with ibox_title="Login Credentials" icon_class="fas fa-sign-in-alt" only %}
+
+            <div class="ibox-content">
+
+                <div class="row">
+                    <div class="col-sm-6">
+                      Bus name :  {{ form.transport_name }}
+                    </div>
+                    <div class="col-sm-6">
+                      Bus Number :  {{ form.number_plate }}
+                    </div>
+                </div>
+
+            </div>
+            <!-- /ibox-content -->
+
+        </div>
+        <!-- /ibox --> 
+
+        <div class="ibox float-e-margins">
+
+            {% include "customadmin/partials/ibox_title.html" with ibox_title="Personal Info" icon_class="fas fa-user" only %}
+
+            <div class="ibox-content">
+
+                <div class="row">
+                    <div class="col-sm-4">
+                      Seats :  {{ form.seats_available }}
+                    </div>
+                    <div class="col-sm-4">
+                      price  : {{ form.price_per_person }}
+                    </div>
+                    <div class="col-sm-4">
+                      Category  : {{ form.bus_category }}
+                    </div>
+                   
+                    
+                </div>
+                <br>
+                <div class="col-sm-4">
+                    Date : {{ form.date_time_dpt }}
+                </div>
+            </div>
+            <!-- /ibox-content -->
+            {% include "customadmin/partials/form_footer_updatebus.html" %}
+            
+
+        </div>
+        <!-- /ibox -->
+
+        
+
+                <hr/>
+
+
+            </div>
+            <!-- /ibox-content -->
+       
+        </div>
+        <!-- /ibox -->
+
+    
+
+    </form>
+
+{% endblock %}
+
+
+{% block js %}
+{{ block.super }}
+<script src="{% static 'customadmin/js/userroles.js' %}"></script>
+
+{% comment %} <script>
+    $(function() {
+        userroles.users.details();
+    });
+</script> {% endcomment %}
+{% endblock %}

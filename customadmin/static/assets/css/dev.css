@@ -1,0 +1,284 @@
+/* Method Description */
+.serv-description-area-div2 {
+  padding: 45px 0 0 0;
+  margin: 0;
+  position: relative;
+  border-top: 1px solid #d8d8d8;
+}
+
+.serv-description-area-div2 h3 {
+  font-weight: 500;
+  font-size: 28px;
+  color: #222;
+  letter-spacing: 0;
+  line-height: 1.4;
+  display: block;
+  margin: 0 0 25px 0;
+}
+
+.serv-description-area-div2 .pb-40 {
+  padding-bottom: 40px;
+}
+
+.serv-description-area-div2 .block2 {
+  display: block;
+}
+
+.serv-description-area-div2 p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #888;
+  letter-spacing: 0;
+  line-height: 1.7;
+}
+
+/* New service category page CSS */
+.master-heading {
+  font-weight: 600;
+  font-size: 22px;
+  color: #222;
+  letter-spacing: 0;
+  line-height: 1.4;
+  display: block;
+  margin: 0 0 12px 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.master-list {
+  font-weight: 400;
+  font-size: 20px;
+  color: #888;
+  letter-spacing: 0;
+  line-height: 1.5;
+  margin: 10px 0;
+  display: block;
+}
+
+.contactMe {
+  width: fit-content;
+  margin: 5px 0px;
+}
+
+.hrline {
+  margin: 50px 0px;
+}
+
+.jump-start-div {
+  margin: 0px 0px 50px 0px;
+}
+
+.jump-start-para {
+  font-weight: 400;
+  font-size: 18px;
+  color: #888;
+  letter-spacing: 0;
+  line-height: 1.7;
+}
+
+.span-block {
+  display: block;
+  padding: 15px 0px;
+}
+
+.redclr {
+  color: red;
+}
+
+/* Lightbox CSS */
+.modal-close {
+  margin: -30px !important;
+}
+
+.close {
+  position: relative;
+  top: 35px !important;
+  right: 53px !important;
+  color: black;
+  font-size: 70px;
+  font-weight: bold;
+  transition: 0.3s;
+  z-index: 1050;
+}
+
+.img-modal-body {
+  width: 100%;
+  max-height: 600px;
+}
+
+.service-para {
+  font-weight: 400;
+  font-size: 16px;
+  color: #888;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 1.3;
+  margin: 0 0 5px 0;
+  display: block;
+}
+
+/* Service Cards CSS */
+.services-root-common.services-root-common-card-div .services-product-card-box .services-product-card-box-row .ser-desc-div2 {
+  width: 100%;
+}
+
+.services-root-common .services-product-card-box .services-product-card-box-row .ser-desc-div2 {
+  margin: 0px auto 0 auto;
+}
+
+/* Homepage card CSS */
+.card {
+  min-height: 250px !important;
+  border-radius: 5px;
+  background: #fff;
+  -webkit-box-shadow: 0 5px 9px 0 rgb(0 0 0 / 6%);
+  box-shadow: 0 5px 9px 0 rgb(0 0 0 / 6%);
+}
+
+.card:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+  transition: box-shadow .3s;
+}
+
+.k-vontent-card-box2 {
+  position: relative;
+  padding: 0;
+  margin: 0 0 30px 0;
+  border: none;
+  box-shadow: 0 10px 18px 0 #0000000f;
+  border-radius: 6px;
+}
+
+.center-desc-div2 {
+  margin: 0 auto;
+  max-width: 320px;
+  width: 100%;
+}
+
+.k-vontent-card-box2 h4 {
+  font-weight: 300;
+  font-size: 24px;
+  color: #222;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 1.4;
+  margin: 0 0 15px 0;
+  display: block;
+}
+
+.k-vontent-card-box2 p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #888;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 1.5;
+  margin: 0 0 5px 0;
+  display: block;
+}
+
+@-webkit-keyframes zoom {
+  from {
+    -webkit-transform: scale(0)
+  }
+
+  to {
+    -webkit-transform: scale(1)
+  }
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0)
+  }
+
+  to {
+    transform: scale(1)
+  }
+}
+
+.close {
+  position: relative;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 60px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 700px) {
+  .modal-content {
+    width: 100%;
+  }
+}
+
+/*  Add service Error Messages  */
+#errordivbox {
+  border: none;
+  padding: 10px;
+}
+
+.error-div-box {
+  background-color: #ff006a;
+  height: 40px;
+  text-align: center;
+  padding: 10px;
+}
+
+.error-div-text {
+  color: white;
+  font-size: 13px;
+}
+
+.modal-dialog {
+  max-width: 1000px !important;
+}
+
+.auth-content-div2 {
+  padding: 0;
+  margin: 0 0 0px 0;
+  position: relative;
+}
+
+header span.text-count-n {
+  height: 23px;
+  min-width: 23px;
+}
+
+.bag-icon {
+  height: 29px;
+  width: 25px;
+}
+
+.personal-chart-view-root .personal-chart-card-grid .personal-chart-card-grid-in .pchart-row05 .row.pchart-row05-01 .whi-card-number-box {
+  width: calc(100% + 6px);
+  left: -6px;
+  padding-left: 20px;
+}
+
+@media (max-width: 767px) {
+  .personal-chart-view-root .personal-chart-card-grid .personal-chart-card-grid-in .pchart-row05 .row.pchart-row05-01 .whi-card-number-box {
+    width: auto;
+    left: 2px;
+    bottom: 0;
+    padding-left: 0;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .personal-chart-view-root .personal-chart-card-grid .personal-chart-card-grid-in .pchart-row05 .row.pchart-row05-01 .whi-card-number-box {
+    width: calc(100% + 3px);
+    left: -3px;
+    bottom: 0;
+    padding-left: 6px;
+    padding-right: 3px;
+  }
+}

@@ -1,0 +1,440 @@
+h1{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    padding-top: 50px;
+}
+.signup{
+    width: 69px;
+    height: 35px;
+    border: solid 1px black;
+    border-radius: 10px;
+    /* margin-left: 1000px; */
+    padding-left:10px ;
+    padding-top: 3px;
+    
+
+}
+
+.logout
+{
+    width: 100%;
+    height:70px ;
+
+    margin-top: 20px;
+  
+}
+.lg{
+    width: 70px;
+    height: 40px;
+    /* border: solid 1px black; */
+    margin-left: 95%;
+    margin-top: 10px;
+    /* padding-top: 5px; */
+    /* padding-left: 20px; */
+    border-radius: 10px;
+    /* align-content: left; */
+    
+}
+.lg_txt1{
+    font-family: 'Roboto', sans-serif;
+}
+.lg:hover{
+    background-color: blue;
+    color: aliceblue;
+}
+
+.a1{
+    text-decoration: none;
+    color: black;
+}
+.signup:hover{
+    background-color: blue;
+  
+}
+.a1:hover{
+    color: aliceblue;
+}
+.success{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: green;
+
+}
+.category{
+    width: 70%;
+    height: 50px;
+    margin-left: 20%;
+    /* text-align: center; */
+}
+.ac{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+.bus1{
+    width: auto;
+   
+   margin: auto;
+    border-radius: 10px;
+    border: solid 1px black;
+    padding-left:10px ;
+    padding-top: 3px;
+    /* display: flex; */
+
+}
+.root1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    
+}
+.book{
+    width: 70px;
+    height: 35px;
+    border-radius: 5px;
+    border: 2px black solid;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-left: 94%;
+}
+.book:hover{
+    background-color: rgb(25, 25, 197);
+    color: aliceblue;
+}
+.add_bus{
+    height: 50px;
+    width: 90px;
+    border: solid 2px black;
+    /* text-a: center; */
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 10%;
+
+}
+.add_bus:hover{
+    
+    background-color: blue;
+}
+.show_pasenger{
+    height: 50px;
+    width: 200px;
+    border: solid 2px black;
+    /* text-a: center; */
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 10px;
+    margin: auto;
+
+
+}
+.show_pasenger:hover{
+    color: aliceblue;
+    background-color: blue;
+}
+.back{
+    /* text-decoration: none; */
+    /* color: aliceblue; */
+    width: 80px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.back a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    color: black;
+
+}
+.back:hover{
+    background-color: rgb(57, 57, 238);
+
+}
+.back a:hover{
+    color: aliceblue;
+}
+.lg1{
+    width: 90px;
+    height: 40px;
+    /* border: solid 1px black; */
+    margin-left: 95%;
+    margin-top: 10px;
+    /* padding-top: 5px; */
+    /* padding-left: 20px; */
+    border-radius: 10px;
+    /* align-content: left; */
+
+}
+.addbustxt{
+    text-decoration: none;
+    color: black;
+}
+.addbustxt:hover{
+    color: aliceblue;
+}
+.showpesenger{
+    text-decoration: none;
+    color: black;
+}
+.showpesenger:hover{
+    color: aliceblue;
+}
+.ticket{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+.bs{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+
+}
+.tct{
+
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+    
+
+}
+.backbutton{
+    height: 50px;
+    width: 100px;
+    padding-left: 28px;
+    padding-top: 9px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin:auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+ 
+}
+.backbutton:hover{
+    background-color: rgb(12, 12, 223);
+   
+
+}
+.backbutton a{
+    text-decoration: none;   
+}
+.backbutton a:hover{
+    color: aliceblue;
+    
+}
+.backbutton1{
+    width: 100px;
+    height: 50px;
+    border: 2px solid black;
+    padding-top: 9px;
+    padding-left:22px ;
+    border-radius: 10px;  
+    /* align-content: center;
+     */
+     /* margin: auto; */
+     /* text-align: center; */
+     /* margin: auto; */
+     margin-left: 40%;
+     /* margin-top: 25px; */
+}
+.backbutton1 a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    color: black;
+    
+    
+}
+.backbutton1:hover{
+    background-color: rgb(206, 71, 71);
+  
+}
+.backbutton1 a:hover{
+    color: aliceblue;
+
+}
+.canclebookingcontaniner{
+    width: 50%;
+    margin-left: 30%;
+    margin-top: 50px;
+}
+.b1{
+    width: 120px;
+    height: 50px;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding-left: 11px;
+    padding-top: 9px;
+    text-decoration: none;
+    margin: auto;
+    margin-top: 60px;
+}
+.b1 a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+
+}
+.b1:hover{
+    background-color: blue;
+}
+.b1 a:hover{
+    color: aliceblue;
+}
+.b2{
+    width: 160px;
+    height: 50px;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding-left: 17px;
+    padding-top: 9px;
+    text-decoration: none;
+    margin: auto;
+    margin-top: 60px;
+}
+.b2 a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+
+}
+.b2:hover{
+    background-color: blue;
+}
+.b2 a:hover{
+    color: aliceblue;
+}
+.btns{
+    width: 100%;
+    height: 100px;
+
+    display: flex;
+}
+.backbutton2{
+    width: 100px;
+    height: 50px;
+    border: 2px solid black;
+    padding-top: 9px;
+    padding-left:28px ;
+    border-radius: 10px;  
+    /* align-content: center;
+     */
+     /* margin: auto; */
+     /* text-align: center; */
+     margin-left: 5%;
+}
+.backbutton2 a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    color: black;
+    
+    
+}
+.backbutton2:hover{
+    background-color: blue;
+  
+}
+.backbutton2 a:hover{
+    color: aliceblue;
+
+}
+.back1{
+    /* text-decoration: none; */
+    /* color: aliceblue; */
+    width: 80px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 21%;
+}
+.back1 a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    color: black;
+
+}
+.back1:hover{
+    background-color: rgb(57, 57, 238);
+
+}
+.back1 a:hover{
+    color: aliceblue;
+}
+.lout a{
+    color: aliceblue;
+}
+.lout a:hover{
+    color: black;
+}
+.bck{
+    color: white;
+    text-decoration: none;
+}
+.bck a:hover{
+    color: black;
+}
+.busss{
+    color: black;
+}
+.bck1 a{
+    color: black;
+}
+#usernamevalidation{
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    /* color: brown; */
+
+}
+#passwordvalidation{
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+
+}
+#registermsg{
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    color: brown;
+}
+#first_name{
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+
+}
+#last_name{
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+}
+#email{
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+
+}
+#username{
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+
+}
+#password{
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+}
+#confirmpassword{
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+
+}
+.bus2{
+    width: 70%;
+    height: 400px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: solid 1px black;
+    padding-left:10px ;
+    padding-top: 100px;
+    /* padding: auto */
+}

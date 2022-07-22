@@ -1,0 +1,50 @@
+{% extends 'customadmin/change_list.html' %}
+{% load static %}
+{% load admin_extras %}
+{% load misc_filters %}
+{% load i18n %}
+{% load crispy_forms_tags %}
+
+{% block page_content %}
+ <form action="" method="post">
+    {% csrf_token %}
+    {% include "customadmin/includes/list_header_card.html" with title="Create a new user" subtitle="Create a new user and assign with individual or group permissions." show_button=True %}
+
+
+    <div class="ibox float-e-margins">
+        
+        <div class="ibox-content">
+            <div class="table-responsive">
+                <table class="table table-striped table-bordered table-hover" id="{{ opts.model_name }}-table">
+                    <thead>
+                        <tr>
+                            <td colspan="2" class="h5 text-left border-white">{{post_detail.username|capfirst}}</td>
+                        </tr>
+                    </thead>
+                    <tfoot>
+                    </tfoot>
+                    <tbody>
+                            <tr class="text-left">
+                                    <h3>This is Post is {{post}}</h3>
+                                   {{ form.soft_delete|as_crispy_field }}
+                                </td>
+                            </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    {% include "customadmin/partials/form_footer.html" %}
+ </form>
+{% endblock %}
+
+{% block js %}
+{{ block.super }}
+<script src="{% static 'customadmin/js/userroles.js' %}"></script>
+
+<script>
+    $(function() {
+        userroles.users.details();
+    });
+</script>
+{% endblock %}

@@ -1,0 +1,916 @@
+.personal-chart-view-section {
+  .personal-chart-view-div {
+    padding: 62px 0 22px 0;
+    margin: 0;
+    position: relative;
+  }
+}
+
+.personal-chart-view-root {
+  padding: 0;
+  margin: 0 0 80px 0;
+  position: relative;
+
+  .personal-chart-card-grid {
+    .personal-chart-card-grid-in {
+      padding: 10px;
+      margin: 0;
+      background-color: #036900;
+      position: relative;
+
+      .pchart-top-row {
+        h3 {
+          font-weight: 500;
+          font-size: 28px;
+          color: #fff;
+          letter-spacing: 0;
+          line-height: 42px;
+          padding: 0 25px;
+          font-family: "Montserrat", sans-serif;
+          margin: 0 0 10px 0;
+        }
+
+        h4 {
+          font-weight: 400;
+          font-size: 24px;
+          line-height: 42px;
+          color: #fff;
+          letter-spacing: 0;
+          text-align: center;
+          font-family: "Montserrat", sans-serif;
+          margin: 0 0 10px 0;
+        }
+
+        .center-right-col {
+          h3 {
+            text-align: right;
+          }
+        }
+      }
+
+      .pchart-row02 {
+        .center-number-box {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 100%;
+
+          h1 {
+            padding: 0;
+            margin: 0;
+            position: relative;
+            font-size: 142px;
+            line-height: 1;
+            color: #fff;
+            font-weight: 700;
+            font-family: "Montserrat", sans-serif;
+          }
+        }
+
+        .card-list-chart {
+          padding: 0;
+          margin: 0;
+          position: relative;
+          display: flex;
+          align-items: center;
+          flex-wrap: wrap;
+          width: 100%;
+
+          .card-list-col-div {
+            width: 33.3%;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+
+            ul {
+              li {
+                border-top: 1px solid #036900;
+                border-right: 1px solid #036900;
+                background-color: #fff;
+                padding: 5px 15px 4px 15px;
+                font-weight: 300;
+                font-size: 20px;
+                line-height: 30px;
+                color: #036900;
+                letter-spacing: 0;
+              }
+            }
+          }
+        }
+      }
+
+      .pchart-row03 {
+        h4 {
+          font-weight: 400;
+          font-size: 24px;
+          line-height: 42px;
+          color: #fff;
+          letter-spacing: 0;
+          text-align: center;
+          font-family: "Montserrat", sans-serif;
+          margin: 10px 0 5px 0;
+        }
+      }
+
+      .pchart-row04 {
+        font-family: "Montserrat", sans-serif;
+
+        .whi-card-number-box {
+          padding: 7px;
+          margin: 0;
+          position: relative;
+
+          .whi-card-number-box-row {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+
+            .whi-card-number-box-col {
+              padding: 5px 5px 4px 5px;
+              margin: 0;
+              height: 92px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              flex-wrap: wrap;
+              background-color: #fff;
+              width: 100%;
+              border: 3px solid #036900;
+
+              &.col-width-50 {
+                width: 50%;
+              }
+
+              h2 {
+                font-weight: 500;
+                font-size: 60px;
+                line-height: 1;
+                color: #036900;
+                letter-spacing: 0;
+              }
+            }
+          }
+        }
+
+        .black-white-box {
+          height: 92px;
+          width: calc(100% - 9px);
+          background-color: #fff;
+
+          &.right-bwb {
+            margin-left: 9px;
+          }
+        }
+      }
+
+      .pchart-row05 {
+        font-family: "Montserrat", sans-serif;
+
+        .justify-center {
+          justify-content: center;
+        }
+
+        .row.pchart-row05-01 {
+          .whi-card-number-box {
+            padding: 7px 14px;
+            z-index: 3;
+            background-color: #1e6900;
+          }
+        }
+
+        .row.pchart-row05-02 {
+          top: -145px;
+          margin-bottom: -139px !important;
+          position: relative;
+        }
+
+        .whi-card-number-box {
+          padding: 0;
+          margin: 0;
+          position: relative;
+
+          .whi-card-number-box-row {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+
+            .whi-card-number-box-col {
+              padding: 5px 5px 4px 5px;
+              margin: 0;
+              height: 92px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              flex-wrap: wrap;
+              background-color: #fff;
+              width: 100%;
+              border-right: 6px solid #036900;
+
+              &.col-width-50 {
+                width: 50%;
+              }
+
+              &.col-width-75 {
+                width: 75%;
+              }
+
+              &.col-width-25 {
+                width: 25%;
+              }
+
+              &.br-0 {
+                border-right: 0;
+              }
+
+              &.whi-card-number-120 {
+                height: 120px;
+
+                h2 {
+                  padding: 0 0 20px 0;
+                }
+              }
+
+              &.whi-card-number-110 {
+                height: 110px;
+                border-top: 6px solid #1e6900;
+
+                h2 {
+                  padding: 12px 0 0 0;
+                }
+              }
+
+              &.he-115 {
+                height: 115px;
+
+                h2 {
+                  padding: 0 0 20px 0;
+                }
+              }
+
+              h2 {
+                font-weight: 500;
+                font-size: 60px;
+                line-height: 1;
+                color: #036900;
+                letter-spacing: 0;
+              }
+
+              h3 {
+                font-weight: 500;
+                font-size: 48px;
+                line-height: 1;
+                color: #036900;
+                letter-spacing: 0;
+                padding: 10px 0 10px 0;
+              }
+            }
+          }
+
+          .center-justify-label {
+            display: flex;
+            justify-content: center;
+
+            span.label-box {
+              height: 48px;
+              min-width: 215px;
+              text-align: center;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              flex-wrap: wrap;
+              font-weight: 800;
+              font-size: 18px;
+              color: #fff;
+              letter-spacing: 0;
+              background: #4d7cfe;
+              position: absolute;
+              top: -26px;
+
+              &.sc-label-box {
+                background: #efd404;
+              }
+
+              &.fc-label-box {
+                background: #54c801;
+              }
+            }
+
+            &.pr-center-justify-label {
+              padding-right: 25%;
+            }
+
+            &.pl-center-justify-label {
+              padding-left: 25%;
+              padding-right: 0;
+            }
+          }
+
+          .whi-card-number-box-row2 {
+            h4 {
+              padding: 8px 2px 2px 2px;
+              font-weight: 700;
+              font-size: 24px;
+              line-height: 36px;
+              color: #fff;
+              letter-spacing: 0;
+              text-align: center;
+              display: block;
+            }
+          }
+
+          &.w-50-right-space {
+            padding-right: 25%;
+          }
+
+          &.w-50-left-space {
+            padding-left: 25%;
+          }
+        }
+      }
+
+      .pchart-code-info-row {
+        .code-info-box-root {
+          padding: 0;
+
+          .code-info-box-row {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            background-color: #fff;
+            margin: 10px 0 0 0;
+
+            .code-info-box-left {
+              width: 215px;
+
+              .code-box-box {
+                height: 100%;
+                text-align: center;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+                font-weight: 800;
+                font-size: 18px;
+                color: #fff;
+                letter-spacing: 0;
+                background: #4d7cfe;
+                width: 100%;
+                padding: 10px;
+                font-family: "Montserrat", sans-serif;
+
+                &.sc-label-box {
+                  background: #efd404;
+                }
+
+                &.fc-label-box {
+                  background: #54c801;
+                }
+              }
+            }
+
+            .code-info-box-right {
+              width: calc(100% - 215px);
+              padding: 30px 25px;
+
+              p {
+                font-weight: 300;
+                font-size: 20px;
+                line-height: 1.4;
+                color: #000;
+                letter-spacing: 0;
+                font-family: "Montserrat", sans-serif;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.desc-info-pc-root {
+  padding: 0;
+  margin: 0 0 0 0;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+
+  .heading-title-div {
+    padding: 0;
+    margin: 0 0 20px 0;
+    position: relative;
+
+    h2 {
+      font-weight: 500;
+      font-size: 36px;
+      color: #000;
+      letter-spacing: 0;
+      display: block;
+    }
+  }
+
+  .desc-info-pc-body {
+    .desc-info-pc-border-row {
+      padding: 20px 0 20px 0;
+      margin: 0 0 30px 0;
+      border-bottom: 1px solid #979797;
+
+      &:last-child {
+        border-bottom: 0 solid #979797;
+      }
+
+      p {
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 1.4;
+        color: #000;
+        margin: 0 0 10px 0;
+        letter-spacing: 0;
+      }
+    }
+  }
+}
+
+.pn-chart-view-section {
+  .pn-chart-view-div {
+    padding: 62px 0 22px 0;
+    margin: 0;
+    position: relative;
+  }
+}
+
+.pn-chart-view-root {
+  .custom-title-div {
+    margin: 0 0 20px 0;
+
+    h2 {
+      font-size: 36px;
+      font-family: "Montserrat", sans-serif;
+    }
+  }
+
+  .pn-list-chart-div {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+
+    .pn-list-chart-box {
+      padding: 40px 0;
+      margin: 0;
+      position: relative;
+      border-bottom: 1px solid #979797;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      width: 100%;
+      min-height: 200px;
+
+      .pn-list-chart-box-left {
+        width: 290px;
+        text-align: center;
+
+        .pn-digit-div {
+          font-weight: 500;
+          font-size: 60px;
+          color: #036900;
+          letter-spacing: 0;
+          margin: 0;
+        }
+      }
+
+      .pn-list-chart-box-right {
+        width: calc(100% - 290px);
+
+        .desc-pn-div {
+          padding: 0 0 0 80px;
+          border-left: 1px solid #979797;
+
+          p {
+            font-weight: 300;
+            font-size: 22px;
+            line-height: 1.4;
+            color: #000;
+            letter-spacing: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .personal-chart-view-section {
+    .personal-chart-view-div {
+      padding: 12px 0 22px 0;
+    }
+  }
+
+  .personal-chart-view-root {
+    margin: 0 0 60px 0;
+
+    .personal-chart-card-grid {
+      .personal-chart-card-grid-in {
+        .pchart-top-row {
+          h3 {
+            font-size: 18px;
+            line-height: 32px;
+            padding: 0 10px;
+            text-align: left;
+            margin: 0 0 0 0;
+          }
+
+          h4 {
+            font-size: 14px;
+            line-height: 32px;
+            padding: 0 10px;
+            text-align: left;
+            margin: 0 0 0 0;
+          }
+
+          .center-right-col {
+            h3 {
+              text-align: left;
+            }
+          }
+        }
+
+        .pchart-row02 {
+          .center-number-box {
+            margin: 0 0 40px 0;
+          }
+
+          .card-list-chart {
+            .card-list-col-div {
+              width: 100%;
+
+              ul {
+                li {
+                  padding: 5px 10px 4px 10px;
+                  font-size: 13px;
+                }
+              }
+            }
+          }
+        }
+
+        .pchart-row03 {
+          h4 {
+            font-size: 16px;
+          }
+        }
+
+        .pchart-row04 {
+          .whi-card-number-box {
+            padding: 2px;
+
+            .whi-card-number-box-row {
+              .whi-card-number-box-col {
+                height: 60px;
+                border: 1px solid #036900;
+
+                h2 {
+                  font-size: 20px;
+                }
+              }
+            }
+          }
+
+          .black-white-box {
+            height: 58px;
+            margin-top: -1px;
+            width: calc(100% - 6px);
+
+            &.right-bwb {
+              margin-left: 3px;
+            }
+
+            &.left-bwb {
+              margin-left: 3px;
+            }
+          }
+        }
+
+        .pchart-row05 {
+          .whi-card-number-box {
+            padding: 2px;
+
+            .whi-card-number-box-row {
+              .whi-card-number-box-col {
+                height: 60px;
+                border-right: 3px solid #036900;
+
+                h2 {
+                  font-size: 20px;
+                }
+
+                h3 {
+                  font-size: 12px;
+                }
+
+                &.he-115 {
+                  height: 80px;
+                }
+
+                &.whi-card-number-120 {
+                  height: 52px;
+
+                  h2 {
+                    padding: 0 0 0 0;
+                  }
+                }
+
+                &.whi-card-number-110 {
+                  height: 56px;
+                  border-top: 0 solid #1e6900;
+
+                  h2 {
+                    padding: 3px 0 0 0;
+                  }
+                }
+              }
+            }
+
+            .whi-card-number-box-row2 {
+              h4 {
+                font-size: 10px;
+                line-height: 24px;
+                padding: 4px 2px 1px 2px;
+              }
+            }
+
+            .center-justify-label {
+              span.label-box {
+                min-width: 80px;
+                padding: 0 5px;
+                font-size: 8px;
+                height: 20px;
+                top: -10px;
+              }
+            }
+          }
+
+          .row.pchart-row05-01 {
+            .whi-card-number-box {
+              padding: 1px 2px;
+            }
+          }
+
+          .row.pchart-row05-02 {
+            top: -91px;
+            margin-bottom: -91px !important;
+          }
+        }
+
+        .pchart-code-info-row {
+          .code-info-box-root {
+            .code-info-box-row {
+              .code-info-box-left {
+                width: 100%;
+
+                .code-box-box {
+                  font-size: 12px;
+                }
+              }
+
+              .code-info-box-right {
+                width: 100%;
+                padding: 15px 15px;
+
+                p {
+                  font-size: 14px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .desc-info-pc-root {
+    .heading-title-div {
+      h2 {
+        font-size: 24px;
+      }
+    }
+
+    .desc-info-pc-body {
+      .desc-info-pc-border-row {
+        padding: 10px 0 20px 0;
+        margin: 0 0 20px 0;
+
+        p {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+
+  .pn-chart-view-section {
+    .pn-chart-view-div {
+      padding: 12px 0 42px 0;
+    }
+  }
+
+  .pn-chart-view-root {
+    .custom-title-div {
+      h2 {
+        font-size: 24px;
+      }
+    }
+
+    .pn-list-chart-div {
+      .pn-list-chart-box {
+        padding: 30px 10px 30px 10px;
+        min-height: 140px;
+
+        .pn-list-chart-box-left {
+          width: 100%;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+
+          .pn-digit-div {
+            font-size: 42px;
+            border-bottom: 1px solid #979797;
+            margin: 0 0 20px 0;
+            padding: 0 0 20px 0;
+            width: 50%;
+          }
+        }
+
+        .pn-list-chart-box-right {
+          width: 100%;
+
+          .desc-pn-div {
+            padding: 0 0 0 0;
+            border-left: 0 solid #979797;
+
+            p {
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .personal-chart-view-section {
+    .personal-chart-view-div {
+      padding: 12px 0 22px 0;
+    }
+  }
+
+  .personal-chart-view-root {
+    .personal-chart-card-grid {
+      .personal-chart-card-grid-in {
+        .pchart-top-row {
+          h3 {
+            font-size: 18px;
+            padding: 0 15px;
+          }
+
+          h4 {
+            font-size: 18px;
+          }
+        }
+
+        .pchart-row02 {
+          .card-list-chart {
+            .card-list-col-div {
+              ul {
+                li {
+                  padding: 5px 10px 4px 10px;
+                  font-size: 13px;
+                }
+              }
+            }
+          }
+        }
+
+        .pchart-row04 {
+          .whi-card-number-box {
+            .whi-card-number-box-row {
+              .whi-card-number-box-col {
+                h2 {
+                  font-size: 36px;
+                }
+              }
+            }
+          }
+        }
+
+        .pchart-row05 {
+          .whi-card-number-box {
+            .whi-card-number-box-row {
+              .whi-card-number-box-col {
+                h2 {
+                  font-size: 36px;
+                }
+
+                h3 {
+                  font-size: 28px;
+                }
+              }
+            }
+
+            .whi-card-number-box-row2 {
+              h4 {
+                font-size: 16px;
+              }
+            }
+
+            .center-justify-label {
+              span.label-box {
+                min-width: 180px;
+                font-size: 13px;
+              }
+            }
+          }
+        }
+
+        .pchart-code-info-row {
+          .code-info-box-root {
+            .code-info-box-row {
+              .code-info-box-left {
+                .code-box-box {
+                  font-size: 16px;
+                }
+              }
+
+              .code-info-box-right {
+                padding: 20px 20px;
+
+                p {
+                  font-size: 14px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .desc-info-pc-root {
+    .heading-title-div {
+      h2 {
+        font-size: 24px;
+      }
+    }
+
+    .desc-info-pc-body {
+      .desc-info-pc-border-row {
+        padding: 10px 0 20px 0;
+        margin: 0 0 20px 0;
+
+        p {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+
+  .pn-chart-view-section {
+    .pn-chart-view-div {
+      padding: 12px 0 42px 0;
+    }
+  }
+
+  .pn-chart-view-root {
+    .custom-title-div {
+      h2 {
+        font-size: 24px;
+      }
+    }
+
+    .pn-list-chart-div {
+      .pn-list-chart-box {
+        padding: 30px 0;
+        min-height: 140px;
+
+        .pn-list-chart-box-left {
+          width: 200px;
+
+          .pn-digit-div {
+            font-size: 42px;
+          }
+        }
+
+        .pn-list-chart-box-right {
+          width: calc(100% - 200px);
+
+          .desc-pn-div {
+            padding: 0 0 0 50px;
+
+            p {
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

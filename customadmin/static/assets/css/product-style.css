@@ -1,0 +1,806 @@
+/* shop page css */
+.shop-product-list-section .shop-product-list-div {
+  padding: 0;
+  margin: 0 0 60px 0;
+  position: relative;
+}
+
+.shop-product-root-common {
+  padding: 0 0s;
+  margin: 0;
+  position: relative;
+  max-width: 100%;
+}
+
+.shop-product-root-common .shop-product-card-box {
+  padding: 0;
+  margin: 0 0 40px 0;
+  position: relative;
+}
+
+.shop-product-root-common .shop-product-card-box .shop-product-card-box-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  position: relative;
+}
+
+.shop-product-root-common .shop-product-card-box .shop-product-card-box-row .shop-product-thumb-div {
+  width: 360px;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.shop-product-root-common .shop-product-card-box .shop-product-card-box-row .shop-product-thumb-div .img-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.shop-product-root-common .shop-product-card-box .shop-product-card-box-row .shop-product-thumb-div .img-fluid.img-sp {
+  height: 267px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+
+.shop-product-root-common .shop-product-card-box .shop-product-card-box-row .sp-desc-div {
+  padding: 30px;
+  margin: 0 0 0 -20px;
+  position: relative;
+  width: calc(100% - 360px + 20px);
+  min-height: 230px;
+  border-radius: 5px;
+  background: #fff;
+  -webkit-box-shadow: 0 10px 18px 0 rgba(0, 0, 0, 0.06);
+          box-shadow: 0 10px 18px 0 rgba(0, 0, 0, 0.06);
+}
+
+.shop-product-root-common .shop-product-card-box .shop-product-card-box-row .sp-desc-div .sp-desc-top-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  position: relative;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.shop-product-root-common .shop-product-card-box .shop-product-card-box-row .sp-desc-div .sp-desc-top-div .sp-desc-top-left-div {
+  padding: 0 40px 0 0;
+  margin: 0;
+  position: relative;
+  width: calc(100% - 270px);
+}
+
+.shop-product-root-common .shop-product-card-box .shop-product-card-box-row .sp-desc-div .sp-desc-top-div .sp-desc-top-right-div {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  width: 270px;
+}
+
+.shop-product-root-common .shop-product-card-box .shop-product-card-box-row .sp-desc-div .sp-desc-top-div h3 {
+  font-weight: 500;
+  font-size: 20px;
+  color: #222;
+  letter-spacing: 0;
+  line-height: 1.3;
+  display: block;
+  margin: 0 0 12px 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.shop-product-root-common .shop-product-card-box .shop-product-card-box-row .sp-desc-div .sp-desc-top-div h3 .link {
+  color: inherit;
+}
+
+.shop-product-root-common .shop-product-card-box .shop-product-card-box-row .sp-desc-div .sp-desc-top-div h4 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.4;
+  color: #f91a6c;
+  text-align: center;
+  display: block;
+  font-family: "Montserrat", sans-serif;
+}
+
+.shop-product-root-common .shop-product-card-box .shop-product-card-box-row .sp-desc-div .sp-desc-top-div p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #888;
+  letter-spacing: 0;
+  line-height: 1.5;
+  display: block;
+}
+
+.shop-product-root-common .shop-product-card-box .shop-product-card-box-row .sp-desc-div .sp-desc-top-div .sp-money-div {
+  padding: 38px 0 45px 0;
+}
+
+.shop-product-root-common .shop-product-card-box .shop-product-card-box-row .sp-desc-div .sp-desc-top-div .button-div .btn.btn-white.btn-white-outline {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+/* End of shop page css */
+/* checkout */
+.pro-booking-pay-info-section .pro-booking-pay-info-div {
+  padding: 0 15px;
+  margin: 0 0 20px 0;
+  position: relative;
+}
+
+.pro-booking-pay-info-root {
+  padding: 0;
+  margin: 0 0 20px 0;
+  position: relative;
+  max-width: 1140px;
+}
+
+.pro-booking-pay-info-root .pro-pay-left-root {
+  padding: 40px 0 0 0;
+  margin: 0 0 20px 0;
+  position: relative;
+}
+
+.pro-booking-pay-info-root .pro-pay-left-root .prag-top-text-div {
+  padding: 0;
+  margin: 0 0 20px 0;
+  position: relative;
+}
+
+.pro-booking-pay-info-root .pro-pay-left-root .prag-top-text-div p {
+  font-size: 12px;
+  color: #bfbfbf;
+  letter-spacing: 0;
+  line-height: 21px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.pro-booking-pay-info-root .pro-pay-left-root .prag-top-text-div p .link.link-btn {
+  color: #f91a6c;
+}
+
+.pro-booking-pay-info-root .pro-pay-left-root .header-div-box {
+  padding: 0;
+  margin: 0 0 40px 0;
+  position: relative;
+}
+
+.pro-booking-pay-info-root .pro-pay-left-root .header-div-box h4 {
+  font-weight: 500;
+  font-size: 28px;
+  color: #222;
+  letter-spacing: 0;
+  line-height: 1.2;
+  margin: 0 0 5px 0;
+  display: block;
+  font-family: "Montserrat", sans-serif;
+}
+
+.pro-booking-pay-info-root .pro-pay-left-root .header-div-box p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #888;
+  letter-spacing: 0;
+  line-height: 1.5;
+  margin: 0 0 5px 0;
+}
+
+.pro-booking-pay-info-root .pro-pay-left-root .your-details-form-div {
+  padding: 0 0 20px 0;
+}
+
+.pro-booking-pay-info-root .pro-pay-left-root .card-info-details-form-div {
+  padding: 60px 0 20px 0;
+}
+
+.pro-booking-pay-info-root .pro-pay-left-root .card-info-details-form-div .header-div-box {
+  margin-bottom: 35px;
+}
+
+.pro-booking-pay-info-root .pro-pay-left-root .card-number-form-group .paycard-method-image-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.pro-booking-pay-info-root .pro-pay-left-root .card-number-form-group .paycard-method-image-list .paycard-method-img-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 12px 12px 0;
+}
+
+.pro-booking-pay-info-root .pro-pay-left-root .card-number-form-group .paycard-method-image-list .img-pay-method {
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.pro-booking-pay-info-root .pro-pay-left-root .cvv-number-form-group .cvv-row-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+.pro-booking-pay-info-root .pro-pay-left-root .cvv-number-form-group .cvv-row-group .form-control {
+  width: 100px;
+  margin: 0 30px 0 0;
+}
+
+.pro-booking-pay-info-root .pro-pay-left-root .cvv-number-form-group .cvv-row-group .card-cvv-image-div {
+  padding: 0;
+}
+
+.pro-booking-pay-info-root .pro-pay-left-root .cvv-number-form-group .cvv-row-group .card-cvv-image-div .img-pay-method {
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.pro-booking-pay-info-root .pro-pay-left-root .checkout-paypal-div {
+  padding: 0;
+  margin: 0 0 80px 0;
+  position: relative;
+}
+
+.pro-booking-pay-info-root .pro-pay-left-root .checkout-paypal-div .paypal-btn-div {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.pro-booking-pay-info-root .pro-pay-left-root .checkout-paypal-div .paypal-btn-div .paypal-link-btn {
+  padding: 6px 20px 4px 20px;
+  margin: 0;
+  position: relative;
+  background: #009cde;
+  border-radius: 5px;
+  min-height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.pro-booking-pay-info-root .pro-pay-left-root .desc-text-root-common {
+  padding: 0;
+  margin: 0 0 20px 0;
+  position: relative;
+}
+
+.pro-booking-pay-info-root .pro-pay-left-root .desc-text-root-common .desc-heading-div {
+  padding: 0;
+  margin: 0 0 15px 0;
+  position: relative;
+}
+
+.pro-booking-pay-info-root .pro-pay-left-root .desc-text-root-common .desc-heading-div h3 {
+  font-weight: 400;
+  font-size: 28px;
+  color: #222;
+  letter-spacing: 0;
+  line-height: 1.2;
+  margin: 0 0 5px 0;
+  display: block;
+  font-family: "Montserrat", sans-serif;
+}
+
+.pro-booking-pay-info-root .pro-pay-left-root .desc-text-root-common .desc-body-div .desc-row-text-div {
+  padding: 0;
+  margin: 0 0 15px 0;
+  position: relative;
+}
+
+.pro-booking-pay-info-root .pro-pay-left-root .desc-text-root-common .desc-body-div h5 {
+  font-weight: 400;
+  font-size: 18px;
+  color: #222;
+  letter-spacing: 0;
+  line-height: 1.5;
+  display: block;
+  font-family: "Montserrat", sans-serif;
+}
+
+.pro-booking-pay-info-root .pro-pay-left-root .desc-text-root-common .desc-body-div p {
+  font-weight: 300;
+  font-size: 16px;
+  color: #222;
+  letter-spacing: 0;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+}
+
+.white-tab-right-card-root {
+  padding: 0;
+  margin: 0 0 20px 0;
+  position: relative;
+}
+
+.white-tab-right-card-root .white-tab-cust-box-card {
+  margin: 0 0 30px 0;
+}
+
+.white-tab-right-card-root .white-tab-cust-box-card .white-tab-cust-header-card {
+  position: relative;
+  z-index: 2;
+}
+
+.white-tab-right-card-root .white-tab-cust-box-card .white-tab-cust-header-card .white-tab-cust-header-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+.white-tab-right-card-root .white-tab-cust-box-card .white-tab-cust-header-card .white-tab-cust-header-row .white-tab-cust {
+  font-weight: 700;
+  font-size: 10px;
+  color: #515153;
+  letter-spacing: 0;
+  line-height: 1.4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px 44px;
+  background-color: #fff;
+  min-height: 45px;
+  border-radius: 5px 5px 0 0;
+}
+
+.white-tab-right-card-root .white-tab-cust-box-card .white-tab-cust-body-card {
+  padding: 30px 24px;
+  margin: 0;
+  position: relative;
+  background: #fff;
+  -webkit-box-shadow: 0 5px 18px 0 rgba(0, 0, 0, 0.04);
+          box-shadow: 0 5px 18px 0 rgba(0, 0, 0, 0.04);
+  border-radius: 0 5px 5px 5px;
+}
+
+.white-tab-right-card-root .white-tab-cust-box-card .white-tab-cust-body-card .form-div .custom-checkbox .custom-control-label {
+  padding: 0 0 0 25px;
+  font-size: 11px;
+}
+
+.white-tab-right-card-root .white-tab-cust-box-card .white-tab-cust-body-card .form-div .custom-checkbox .custom-control-label::before {
+  width: 16px;
+  height: 16px;
+}
+
+.white-tab-right-card-root .white-tab-cust-box-card .white-tab-cust-body-card .form-div .custom-checkbox .custom-control-input:checked ~ .custom-control-label::after {
+  top: 2px;
+  left: 0;
+}
+
+.white-tab-right-card-root .white-tab-cust-box-card .white-tab-cust-body-card .form-div .btn-submit-pay-div .btn-color-primary {
+  width: 100%;
+}
+
+.white-tab-right-card-root .message-info-div .error-message-bottom-all {
+  display: block;
+  padding: 0;
+  margin: 0 0 10px 0;
+  text-align: center;
+}
+
+.white-tab-right-card-root .message-info-div .error-message-bottom-all span.text-span {
+  color: #f91a6c;
+  font-size: 12px;
+  line-height: 1.5;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* End of checkout */
+.product-cart-root-common {
+  padding: 0 0;
+  margin: 0 0 40px 0;
+  position: relative;
+  max-width: 100%;
+}
+
+.product-cart-root-common .product-cart-card-box {
+  padding: 0;
+  margin: 0 0 30px 0;
+  position: relative;
+}
+
+.product-cart-root-common .product-cart-card-box .product-cart-card-box-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  position: relative;
+}
+
+.product-cart-root-common .product-cart-card-box .product-cart-card-box-row .product-cart-thumb-div {
+  width: 250px;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.product-cart-root-common .product-cart-card-box .product-cart-card-box-row .product-cart-thumb-div .img-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.product-cart-root-common .product-cart-card-box .product-cart-card-box-row .product-cart-thumb-div .img-fluid.img-sp {
+  height: 190px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+
+.product-cart-root-common .product-cart-card-box .product-cart-card-box-row .sp-desc-div {
+  padding: 15px 20px;
+  margin: 0 0 0 -16px;
+  position: relative;
+  width: calc(100% - 250px + 16px);
+  min-height: 160px;
+  border-radius: 5px;
+  background: #fff;
+  -webkit-box-shadow: 0 10px 18px 0 rgba(0, 0, 0, 0.06);
+          box-shadow: 0 10px 18px 0 rgba(0, 0, 0, 0.06);
+}
+
+.product-cart-root-common .product-cart-card-box .product-cart-card-box-row .sp-desc-div .sp-desc-top-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  position: relative;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.product-cart-root-common .product-cart-card-box .product-cart-card-box-row .sp-desc-div .sp-desc-top-div .sp-desc-top-left-div {
+  padding: 0 30px 0 10px;
+  margin: 0;
+  position: relative;
+  width: calc(100% - 195px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.product-cart-root-common .product-cart-card-box .product-cart-card-box-row .sp-desc-div .sp-desc-top-div .sp-desc-top-right-div {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  width: 195px;
+}
+
+.product-cart-root-common .product-cart-card-box .product-cart-card-box-row .sp-desc-div .sp-desc-top-div h3 {
+  font-weight: 500;
+  font-size: 20px;
+  color: #222;
+  letter-spacing: 0;
+  line-height: 1.3;
+  display: block;
+  margin: 0 0 12px 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.product-cart-root-common .product-cart-card-box .product-cart-card-box-row .sp-desc-div .sp-desc-top-div h3 .link {
+  color: inherit;
+}
+
+.product-cart-root-common .product-cart-card-box .product-cart-card-box-row .sp-desc-div .sp-desc-top-div h4 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.4;
+  color: #f91a6c;
+  text-align: center;
+  display: block;
+  font-family: "Montserrat", sans-serif;
+}
+
+.product-cart-root-common .product-cart-card-box .product-cart-card-box-row .sp-desc-div .sp-desc-top-div p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #888;
+  letter-spacing: 0;
+  line-height: 1.5;
+  display: block;
+}
+
+.product-cart-root-common .product-cart-card-box .product-cart-card-box-row .sp-desc-div .sp-desc-top-div .sp-money-div {
+  padding: 20px 0 25px 0;
+}
+
+@media (min-width: 1025px) {
+  /* checkout */
+  .white-tab-right-card-root {
+    padding: 0;
+    margin: -50px 0 20px 0;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 90px;
+    right: 0;
+    max-height: calc(100vh - 90px);
+    overflow-y: auto;
+  }
+  /* End of checkout */
+}
+
+@media (max-width: 767px) {
+  /* shop page css */
+  .shop-product-root-common {
+    padding: 0;
+  }
+  .shop-product-root-common .shop-product-card-box .shop-product-card-box-row .shop-product-thumb-div {
+    width: 100%;
+  }
+  .shop-product-root-common .shop-product-card-box .shop-product-card-box-row .shop-product-thumb-div .img-fluid.img-sp {
+    height: 250px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .shop-product-root-common .shop-product-card-box .shop-product-card-box-row .sp-desc-div {
+    padding: 25px 20px 20px 20px;
+    margin: -10px 0 0 0;
+    width: 100%;
+    min-height: 150px;
+  }
+  .shop-product-root-common .shop-product-card-box .shop-product-card-box-row .sp-desc-div .sp-desc-top-div .sp-desc-top-left-div {
+    padding: 0;
+    margin: 0 0 10px 0;
+    width: 100%;
+  }
+  .shop-product-root-common .shop-product-card-box .shop-product-card-box-row .sp-desc-div .sp-desc-top-div .sp-desc-top-right-div {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .shop-product-root-common .shop-product-card-box .shop-product-card-box-row .sp-desc-div .sp-desc-top-div p {
+    font-size: 14px;
+  }
+  .shop-product-root-common .shop-product-card-box .shop-product-card-box-row .sp-desc-div .sp-desc-top-div .sp-money-div {
+    padding: 10px 0 25px 0;
+  }
+  /* End of shop page css */
+  /* checkout */
+  .pro-booking-pay-info-section .pro-booking-pay-info-div {
+    padding: 0;
+    margin: 0 0 0 0;
+  }
+  .pro-booking-pay-info-root {
+    margin: 0 0 10px 0;
+  }
+  .pro-booking-pay-info-root .pro-pay-left-root {
+    padding: 0;
+    margin: 0 0 40px 0;
+  }
+  .pro-booking-pay-info-root .pro-pay-left-root .prag-top-text-div {
+    margin: 0 0 25px 0;
+  }
+  .pro-booking-pay-info-root .pro-pay-left-root .header-div-box h4 {
+    font-size: 18px;
+  }
+  .pro-booking-pay-info-root .pro-pay-left-root .header-div-box p {
+    font-size: 12px;
+  }
+  .pro-booking-pay-info-root .pro-pay-left-root .your-details-form-div {
+    padding: 0 0 10px 0;
+  }
+  .pro-booking-pay-info-root .pro-pay-left-root .card-number-form-group .paycard-method-image-list {
+    padding: 10px 0 0 0;
+  }
+  .pro-booking-pay-info-root .pro-pay-left-root .checkout-paypal-div {
+    margin: 0 0 50px 0;
+  }
+  .pro-booking-pay-info-root .pro-pay-left-root .checkout-paypal-div .header-div-box {
+    margin: 0 0 25px 0;
+  }
+  .pro-booking-pay-info-root .pro-pay-left-root .desc-text-root-common .desc-heading-div h3 {
+    font-size: 18px;
+  }
+  .pro-booking-pay-info-root .pro-pay-left-root .desc-text-root-common .desc-body-div h5 {
+    font-size: 14px;
+  }
+  .pro-booking-pay-info-root .pro-pay-left-root .desc-text-root-common .desc-body-div p {
+    font-size: 12px;
+  }
+  .white-tab-right-card-root .white-tab-cust-box-card .white-tab-cust-header-card .white-tab-cust-header-row .white-tab-cust {
+    padding: 5px 34px;
+  }
+  .white-tab-right-card-root .white-tab-cust-box-card .white-tab-cust-body-card {
+    padding: 30px 19px;
+  }
+  /* End of checkout */
+  .product-cart-root-common {
+    padding: 0;
+    margin: 0 0 20px 0;
+  }
+  .product-cart-root-common .product-cart-card-box .product-cart-card-box-row .product-cart-thumb-div {
+    width: 100%;
+  }
+  .product-cart-root-common .product-cart-card-box .product-cart-card-box-row .product-cart-thumb-div .img-fluid.img-sp {
+    height: 200px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .product-cart-root-common .product-cart-card-box .product-cart-card-box-row .sp-desc-div {
+    padding: 25px 20px 20px 20px;
+    margin: -10px 0 0 0;
+    width: 100%;
+    min-height: 100px;
+  }
+  .product-cart-root-common .product-cart-card-box .product-cart-card-box-row .sp-desc-div .sp-desc-top-div .sp-desc-top-left-div {
+    padding: 0;
+    margin: 0 0 10px 0;
+    width: 100%;
+  }
+  .product-cart-root-common .product-cart-card-box .product-cart-card-box-row .sp-desc-div .sp-desc-top-div .sp-desc-top-right-div {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .product-cart-root-common .product-cart-card-box .product-cart-card-box-row .sp-desc-div .sp-desc-top-div h3 {
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+  }
+  .product-cart-root-common .product-cart-card-box .product-cart-card-box-row .sp-desc-div .sp-desc-top-div p {
+    font-size: 14px;
+  }
+  .product-cart-root-common .product-cart-card-box .product-cart-card-box-row .sp-desc-div .sp-desc-top-div .sp-money-div {
+    padding: 0 0 25px 0;
+  }
+  .product-cart-root-common .product-cart-card-box .product-cart-card-box-row .sp-desc-div .add-pm-btn-group .button-container {
+    margin: 0 auto;
+    max-width: 210px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* shop page css */
+  .shop-product-root-common {
+    padding: 0;
+  }
+  .shop-product-root-common .shop-product-card-box .shop-product-card-box-row .shop-product-thumb-div {
+    width: 270px;
+  }
+  .shop-product-root-common .shop-product-card-box .shop-product-card-box-row .shop-product-thumb-div .img-fluid.img-sp {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .shop-product-root-common .shop-product-card-box .shop-product-card-box-row .sp-desc-div {
+    padding: 20px 20px 20px 20px;
+    width: calc(100% - 270px + 20px);
+    min-height: 150px;
+  }
+  .shop-product-root-common .shop-product-card-box .shop-product-card-box-row .sp-desc-div .sp-desc-top-div .sp-desc-top-left-div {
+    padding: 0;
+    margin: 0 0 10px 0;
+    width: 100%;
+  }
+  .shop-product-root-common .shop-product-card-box .shop-product-card-box-row .sp-desc-div .sp-desc-top-div .sp-desc-top-right-div {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .shop-product-root-common .shop-product-card-box .shop-product-card-box-row .sp-desc-div .sp-desc-top-div h3 {
+    font-size: 18px;
+    margin: 0 0 8px 0;
+  }
+  .shop-product-root-common .shop-product-card-box .shop-product-card-box-row .sp-desc-div .sp-desc-top-div p {
+    font-size: 14px;
+  }
+  .shop-product-root-common .shop-product-card-box .shop-product-card-box-row .sp-desc-div .sp-desc-top-div .sp-money-div {
+    padding: 10px 0 20px 0;
+  }
+  .shop-product-root-common .shop-product-card-box .shop-product-card-box-row .sp-desc-div .sp-desc-top-div .button-div .btn.btn-white.btn-white-outline {
+    font-weight: 500;
+    font-size: 16px;
+    min-height: 44px;
+    padding: 7px 30px 5px 30px;
+  }
+  /* End of shop page css */
+  /* checkout */
+  .pro-booking-pay-info-section .pro-booking-pay-info-div {
+    padding: 0;
+    margin: 0 0 0 0;
+  }
+  .pro-booking-pay-info-root {
+    margin: 0 0 10px 0;
+  }
+  .pro-booking-pay-info-root .pro-pay-left-root {
+    padding: 0;
+    margin: 0 0 40px 0;
+  }
+  .pro-booking-pay-info-root .pro-pay-left-root .prag-top-text-div {
+    margin: 0 0 25px 0;
+  }
+  .pro-booking-pay-info-root .pro-pay-left-root .header-div-box h4 {
+    font-size: 18px;
+  }
+  .pro-booking-pay-info-root .pro-pay-left-root .header-div-box p {
+    font-size: 12px;
+  }
+  .pro-booking-pay-info-root .pro-pay-left-root .your-details-form-div {
+    padding: 0 0 10px 0;
+  }
+  .pro-booking-pay-info-root .pro-pay-left-root .card-number-form-group .paycard-method-image-list {
+    padding: 10px 0 0 0;
+  }
+  .pro-booking-pay-info-root .pro-pay-left-root .checkout-paypal-div {
+    margin: 0 0 50px 0;
+  }
+  .pro-booking-pay-info-root .pro-pay-left-root .checkout-paypal-div .header-div-box {
+    margin: 0 0 25px 0;
+  }
+  .pro-booking-pay-info-root .pro-pay-left-root .desc-text-root-common .desc-heading-div h3 {
+    font-size: 18px;
+  }
+  .pro-booking-pay-info-root .pro-pay-left-root .desc-text-root-common .desc-body-div h5 {
+    font-size: 14px;
+  }
+  .pro-booking-pay-info-root .pro-pay-left-root .desc-text-root-common .desc-body-div p {
+    font-size: 12px;
+  }
+  .white-tab-right-card-root .white-tab-cust-box-card .white-tab-cust-header-card .white-tab-cust-header-row .white-tab-cust {
+    padding: 5px 34px;
+  }
+  .white-tab-right-card-root .white-tab-cust-box-card .white-tab-cust-body-card {
+    padding: 30px 19px;
+  }
+  /* End of checkout */
+}
+/*# sourceMappingURL=product-style.css.map */

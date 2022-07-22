@@ -1,0 +1,6 @@
+{% load misc_filters %}
+
+
+{% if has_delete_permission %}
+    <a data-title="{{ o }}" title="category-delete" href="{% url opts|admin_urlname:'delete' o.pk|admin_urlquote %}" class="btn btn-danger btn-xs btn-delete"><i class="fas fa-trash-alt"></i></a>
+{% endif %}

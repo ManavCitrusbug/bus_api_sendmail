@@ -1,0 +1,279 @@
+.time-picker-custom-div {
+  .datepicker.col-md-6 {
+    display: none;
+  }
+
+  .bootstrap-datetimepicker-widget {
+    table {
+      td {
+        height: 36px;
+        line-height: normal;
+
+        a.btn {
+          color: rgba(255, 255, 255, 0.24);
+          background: #191919;
+          border-radius: 8px;
+          padding: 0;
+          border: none;
+          line-height: 1;
+          width: 100%;
+        }
+
+        .timepicker-hour,
+        .timepicker-minute {
+          background: #191919;
+          font-weight: 700;
+          font-size: 18px;
+          color: #fff;
+          letter-spacing: 0;
+          width: 100%;
+          height: 42px;
+          line-height: 1;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 5px 10px;
+          border-radius: 0;
+        }
+
+        .glyphicon {
+          font-family: "Material Icons";
+          font-weight: normal;
+          font-style: normal;
+          font-size: 24px;
+          line-height: 1;
+          letter-spacing: normal;
+          text-transform: none;
+          display: inline-block;
+          white-space: nowrap;
+          word-wrap: normal;
+          direction: ltr;
+          text-rendering: optimizeLegibility;
+          -webkit-font-smoothing: antialiased;
+
+          &.glyphicon-chevron-up {
+            font-size: 36px;
+            height: auto;
+            width: 100%;
+            margin: 0;
+
+            &::before {
+              content: "\e5c7";
+            }
+          }
+
+          &.glyphicon-chevron-down {
+            font-size: 36px;
+            height: auto;
+            width: 100%;
+            margin: 0;
+
+            &::before {
+              content: "\e5c5";
+            }
+          }
+
+          &:hover {
+            background: transparent;
+          }
+        }
+
+        &.separator {
+          color: #fff;
+          font-size: 26px;
+          font-weight: 600;
+          height: 32px;
+          line-height: 31px;
+          width: 16px;
+
+          &.time-separator {
+            width: 55px;
+            max-width: 55px;
+            position: relative;
+
+            &::before {
+              content: "";
+              width: 55px;
+              background: #191919;
+              position: absolute;
+              top: 0;
+              height: 40px;
+              left: 20px;
+            }
+
+            &.ts {
+              &::before {
+                border-radius: 8px 8px 0 0;
+              }
+            }
+
+            &.bs {
+              &::before {
+                border-radius: 0 0 8px 8px;
+              }
+            }
+          }
+        }
+
+        &.time-btn {
+          width: 55px;
+          max-width: 55px;
+          text-align: center;
+
+          .btn.btn-primary {
+            background: #191919;
+            font-weight: 700;
+            font-size: 18px;
+            color: #fff;
+            letter-spacing: 0;
+            width: 55px;
+            height: 42px;
+            line-height: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 5px 10px;
+            // margin: 0 auto;
+            margin-left: 20px;
+            border-radius: 0;
+            border: none;
+          }
+        }
+      }
+    }
+
+    .timepicker-hours,
+    .timepicker-minutes {
+      font-weight: 700;
+      font-size: 18px;
+      color: #fff;
+      letter-spacing: 0;
+      background: #191919;
+      max-width: 460px;
+      border-radius: 6px;
+
+      table {
+        td {
+          &.hour,
+          &.minute,
+          &.second {
+            margin: 0;
+            vertical-align: middle;
+
+            &:hover {
+              background: transparent;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .timepicker.col-md-6.time-view-col {
+    flex: 0 0 580px;
+    max-width: 100%;
+  }
+
+  .time-zone-custom-div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: rgba(255, 255, 255, 0.24);
+    background: #191919;
+    border-radius: 6px;
+    padding: 5px;
+    border: none;
+    max-width: 90px;
+    width: 100%;
+    position: relative;
+    left: -90px;
+
+    ul {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 100%;
+
+      li {
+        width: 100%;
+        text-align: center;
+
+        .btn-tizone {
+          font-size: 14px;
+          line-height: 28px;
+          font-weight: 700;
+          color: rgba(255, 255, 255, 0.24);
+          margin: 0 0 0 0;
+          width: 100%;
+          text-align: center;
+        }
+
+        &.active {
+          .btn-tizone {
+            font-size: 18px;
+            color: rgba(255, 255, 255, 1);
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .time-picker-custom-div {
+    .bootstrap-datetimepicker-widget {
+      .row {
+        flex-wrap: wrap;
+      }
+
+      table {
+        td {
+          width: 120px;
+          font-size: 14px;
+
+          .timepicker-hour,
+          .timepicker-minute {
+            font-size: 14px;
+          }
+
+          &.time-btn {
+            width: 42px;
+
+            .btn.btn-primary {
+              font-size: 14px;
+              width: 42px;
+              margin-left: 10px;
+              padding: 0 3px 0 0;
+            }
+          }
+
+          &.separator {
+            font-size: 18px;
+            width: 15px;
+
+            &.time-separator {
+              &::before {
+                content: "";
+                width: 40px;
+                background: #191919;
+                position: absolute;
+                top: 0;
+                height: 40px;
+                left: 10px;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .time-zone-custom-div {
+      left: auto;
+      max-width: 100%;
+      width: 100%;
+      margin: 10px 15px 0 15px;
+      padding: 0 15px;
+    }
+  }
+}

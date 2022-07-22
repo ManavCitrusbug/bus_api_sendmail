@@ -1,0 +1,655 @@
+.profile-v-tab-section {
+  .profile-v-tab-div {
+    padding: 62px 0;
+    margin: 0;
+    position: relative;
+  }
+}
+
+.profile-pic-upload {
+  position: relative;
+  padding: 20px 0 20px 0;
+  margin: 0 0 20px 0;
+  display: flex;
+  align-items: center;
+
+  .circle-img-div {
+    width: 127px;
+    height: 127px;
+    position: relative;
+    border-radius: 100%;
+    display: block;
+
+    .profile-pic {
+      width: 125px;
+      height: 125px;
+      object-fit: cover;
+      border-radius: 100%;
+      display: block;
+      background-color: #f6f8fb;
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4);
+    }
+
+    label.filelabel-icon {
+      height: 38px;
+      width: 38px;
+      background: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 100%;
+      font-size: 14px;
+      position: absolute;
+      top: 5px;
+      right: -5px;
+      cursor: pointer;
+      border: 3px solid #f0f0f0;
+    }
+
+    .file-upload {
+      display: none;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .upload-button {
+      font-size: 1.2em;
+
+      &:hover {
+        transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        color: #999;
+      }
+    }
+
+    i.material-icons {
+      font-size: 24px;
+    }
+  }
+
+  .text-title-div {
+    padding: 0 0 0 25px;
+    margin: 0;
+    position: relative;
+    width: calc(100% - 127px);
+
+    h3 {
+      font-weight: 500;
+      font-size: 28px;
+      color: #222;
+      letter-spacing: 0;
+      line-height: 1.4;
+      font-family: "Montserrat", sans-serif;
+      margin: 0 0 0 0;
+    }
+
+    p {
+      font-weight: 400;
+      font-size: 14px;
+      color: #888;
+      letter-spacing: 0;
+      line-height: 1.5;
+    }
+  }
+}
+
+.profile-v-tab-root {
+  padding: 0;
+  margin: 0;
+  position: relative;
+
+  .vertical-tabs-root-common {
+    .vertical-tabs-header-common {
+      .nav-tabs {
+        .nav-item {
+          .nav-link {
+            margin: 0 0 2px 0;
+          }
+        }
+      }
+    }
+
+    .vertical-tabs-body {
+      .vertical-tab-inner {
+        padding: 45px 30px 20px 30px;
+        min-height: 300px;
+        flex-direction: column;
+
+        .mb-20 {
+          margin-bottom: 20px;
+        }
+
+        &.bookings-calender-tab-inner {
+          padding-top: 35px;
+        }
+      }
+    }
+  }
+}
+
+.search-profile-filter-div {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  width: 100%;
+
+  .search-v-form-div {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    width: 100%;
+
+    .width-100-m-50 {
+      flex: 0 0 calc(100% - 70px);
+      max-width: calc(100% - 70px);
+    }
+
+    .width-50px {
+      flex: 0 0 70px;
+      max-width: 70px;
+    }
+
+    .btn-pro-search-div {
+      padding: 24px 0 0 0;
+
+      .btn-pro-icon-search {
+        background: #54c801;
+        border-radius: 5px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 24px;
+        color: #fff;
+        border: 1px solid #54c801;
+        letter-spacing: 0;
+        min-height: 50px;
+        padding: 6px 12px 5px 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.8s;
+        width: 100%;
+        position: relative;
+
+        &:hover,
+        &:focus {
+          color: #fff;
+          transform: translateY(-2px);
+          box-shadow: 0 5px 10px 0 rgba(84, 200, 1, 0.2);
+        }
+      }
+    }
+  }
+}
+
+.transactions-list-div {
+  padding: 0;
+  margin: 0;
+  position: relative;
+
+  .text-line-center-div {
+    padding: 0;
+    margin: 0 0 5px 0;
+    position: relative;
+
+    .title-div {
+      padding: 0;
+      position: relative;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      width: 100%;
+
+      &::before {
+        content: "";
+        height: 1px;
+        background-color: #54c801;
+        display: block;
+        width: 100%;
+        position: absolute;
+      }
+
+      span.text {
+        font-weight: 700;
+        font-size: 10px;
+        color: #515153;
+        letter-spacing: 0;
+        display: inline-block;
+        padding: 0 20px 0 0;
+        position: relative;
+        z-index: 2;
+        background-color: #fff;
+      }
+    }
+  }
+
+  .transactions-list-root {
+    padding: 0;
+    margin: 0;
+    position: relative;
+
+    .transactions-pay-box {
+      padding: 0;
+      margin: 0;
+      position: relative;
+      border-bottom: 1px solid rgba(151, 151, 151, 0.18);
+
+      &:last-child {
+        border-bottom: 0;
+      }
+
+      .transactions-pay-row {
+        padding: 15px 0;
+        margin: 0;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        p {
+          font-weight: 500;
+          font-size: 16px;
+          color: #b7b7b7;
+          letter-spacing: 0;
+          display: inline-block;
+          width: 100%;
+        }
+
+        .transactions-pay-left {
+          padding: 0;
+          margin: 0;
+          position: relative;
+          width: 60%;
+
+          h5 {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 1.4;
+            color: #515153;
+            letter-spacing: 0;
+            display: inline-block;
+            width: 100%;
+          }
+        }
+
+        .transactions-pay-right {
+          padding: 0;
+          margin: 0;
+          position: relative;
+          width: 40%;
+
+          h4 {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 1.4;
+            color: #54c801;
+            letter-spacing: 0;
+            display: inline-block;
+            width: 100%;
+            text-align: right;
+          }
+
+          p {
+            text-align: right;
+          }
+        }
+      }
+    }
+
+    .pagination-root {
+      justify-content: flex-end;
+      padding-bottom: 0;
+
+      .pagination-ul {
+        justify-content: flex-end;
+      }
+    }
+  }
+}
+
+.calender-pro-root {
+  width: 100%;
+  position: relative;
+
+  .full-calendar-custom-div {
+    .fc-border-separate {
+      tr.fc-last {
+        th {
+          background-color: #fff;
+        }
+      }
+    }
+
+    .fc-header {
+      .fc-header-left {
+        h2 {
+          font-size: 20px;
+          padding: 4px 0;
+        }
+      }
+    }
+  }
+}
+
+.wallet-card-div-root {
+  padding: 0;
+  margin: 0;
+  position: relative;
+
+  .title-top-row {
+    padding: 0;
+    margin: 0 0 10px 0;
+    position: relative;
+
+    span.title-span {
+      font-weight: 700;
+      font-size: 10px;
+      color: #515153;
+      letter-spacing: 0;
+    }
+  }
+
+  .wc-cc-root {
+    padding: 0;
+    margin: 0;
+    position: relative;
+
+    .card-number-form-group {
+      .paycard-method-image-list {
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+
+        .paycard-method-img-div {
+          display: flex;
+          flex-wrap: wrap;
+          margin: 0 12px 12px 0;
+        }
+
+        .img-pay-method {
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+          border-radius: 4px;
+        }
+      }
+    }
+
+    .cvv-number-form-group {
+      .cvv-row-group {
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        width: 100%;
+
+        .form-control {
+          width: 100px;
+          margin: 0 30px 0 0;
+        }
+
+        .card-cvv-image-div {
+          padding: 0;
+
+          .img-pay-method {
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+            border-radius: 4px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .profile-v-tab-section {
+    .profile-v-tab-div {
+      padding: 0 0 30px 0;
+    }
+  }
+
+  .profile-v-tab-root {
+    .vertical-tabs-root-common {
+      .vertical-tabs-header-common {
+        .nav-tabs {
+          margin: 0 0 20px 0;
+        }
+      }
+
+      .vertical-tabs-body {
+        .vertical-tab-inner {
+          padding: 30px 20px 20px 20px;
+          min-height: 150px;
+
+          &.bookings-calender-tab-inner {
+            padding-top: 20px;
+          }
+        }
+      }
+    }
+  }
+
+  .profile-pic-upload {
+    flex-direction: column;
+
+    .circle-img-div {
+      margin: 0 0 20px 0;
+    }
+
+    .text-title-div {
+      padding: 0;
+      width: 100%;
+      text-align: center;
+
+      h3 {
+        font-size: 18px;
+      }
+
+      p {
+        font-size: 12px;
+      }
+    }
+  }
+
+  .search-profile-filter-div {
+    .search-v-form-div {
+      .width-100-m-50 {
+        flex: 100%;
+        max-width: 100%;
+      }
+
+      .width-50px {
+        flex: 100%;
+        max-width: 100%;
+      }
+
+      .form-group {
+        margin-bottom: 15px;
+      }
+
+      .btn-pro-search-div {
+        padding: 0 0 30px 0;
+      }
+    }
+  }
+
+  .transactions-list-div {
+    .transactions-list-root {
+      .transactions-pay-box {
+        .transactions-pay-row {
+          p {
+            font-size: 12px;
+          }
+
+          .transactions-pay-left {
+            h5 {
+              font-size: 12px;
+            }
+          }
+
+          .transactions-pay-right {
+            h4 {
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .wallet-card-div-root {
+    .wc-cc-root {
+      .card-number-form-group {
+        .paycard-method-image-list {
+          padding: 5px 0 0 0;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .profile-v-tab-section {
+    .profile-v-tab-div {
+      padding: 0 0 30px 0;
+    }
+  }
+
+  .profile-pic-upload {
+    position: relative;
+    padding: 0 0 10px 0;
+  }
+
+  .calender-pro-root {
+    width: 100%;
+    position: relative;
+
+    .full-calendar-custom-div {
+      .fc-event-hori {
+        padding: 0 5px;
+        min-height: 19px;
+        border-left: 2px solid !important;
+      }
+
+      .fc-event-inner {
+        font-size: 8px;
+        line-height: 12px;
+      }
+
+      .fc-header {
+        margin: 0 0 10px 0;
+
+        .fc-header-left {
+          h2 {
+            font-size: 18px;
+          }
+        }
+      }
+
+      .fc-week {
+        .fc-day {
+          > div {
+            .fc-day-number {
+              min-width: 14px;
+              padding: 2px;
+              font-size: 9px;
+            }
+          }
+        }
+      }
+
+      .fc-header-title {
+        h2 {
+          font-size: 12px;
+          padding: 0 10px;
+        }
+      }
+
+      .fc-view {
+        overflow-x: auto;
+
+        .fc-border-separate {
+          tr.fc-last {
+            th {
+              min-width: 75px;
+            }
+          }
+        }
+
+        &.fc-view-agendaWeek {
+          .fc-border-separate {
+            tr.fc-last {
+              th {
+                min-width: auto;
+              }
+            }
+          }
+        }
+
+        &.fc-view-agendaDay {
+          .fc-border-separate {
+            tr.fc-last {
+              th {
+                min-width: auto;
+              }
+            }
+          }
+        }
+      }
+
+      .fc-agenda {
+        .fc-agenda-axis {
+          font-size: 10px;
+        }
+      }
+
+      .fc td.fc-day > div,
+      .fc th.fc-day div {
+        min-height: 50px !important;
+      }
+    }
+  }
+
+  .profile-v-tab-root {
+    .vertical-tabs-root-common {
+      .vertical-tabs-header-common {
+        .nav-tabs {
+          margin: 0 0 20px 0;
+        }
+      }
+
+      .vertical-tabs-body {
+        .vertical-tab-inner {
+          padding: 25px 20px 20px 20px;
+          min-height: 150px;
+
+          &.bookings-calender-tab-inner {
+            padding-top: 15px;
+          }
+        }
+      }
+    }
+  }
+
+  .transactions-list-div {
+    .transactions-list-root {
+      .transactions-pay-box {
+        .transactions-pay-row {
+          p {
+            font-size: 12px;
+          }
+
+          .transactions-pay-left {
+            h5 {
+              font-size: 12px;
+            }
+          }
+
+          .transactions-pay-right {
+            h4 {
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

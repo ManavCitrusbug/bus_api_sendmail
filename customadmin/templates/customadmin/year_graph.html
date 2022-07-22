@@ -1,0 +1,81 @@
+{% extends 'customadmin/index.html' %}
+
+{% load static %}
+{% load admin_extras %}
+{% load misc_filters %}
+{% load i18n %}
+
+{% load admin_extras %}
+{% block graph %}
+<br>
+<form method='POST'>
+    {% csrf_token %}
+    
+
+
+    <select name="year" id="year" >
+      <option value="2019">2019</option>
+      <option value="2020">2020</option>
+      <option value="2021">2021</option>
+      <option value="2022">2022</option>
+      
+    </select> &nbsp;&nbsp;&nbsp;&nbsp;
+      
+      <button type="submit" class="btn btn-success" >Search</button> 
+  </form><br>  
+  <h4>Year is : {{year}}</h4><br>
+  <canvas id="myChart" width="150" height="50"></canvas>
+  <script src="{% static 'customadmin/js/plugins/chartJs/Chart.min.js' %}"></script>
+  
+  <script>
+  const ctx = document.getElementById('myChart').getContext('2d'); 
+  var labals=['2019','2020','2021','2022']
+  console.log({{year}})
+  var index = labals.indexOf(year+1)
+  console.log(index)
+
+  var ary=new Array()
+  ary=[0,0,0,0]
+ 
+  ary[{{listtotal}}]={{listtotal}}
+
+
+
+  const myChart = new Chart(ctx, {
+      type: 'bar',
+      data: {
+       
+          labels: labals,
+
+          datasets: [{
+
+              label: 'Bus Charts  ',
+              
+              data:ary,
+          
+              backgroundColor: [
+                  'rgba(255, 99, 132, 0.2)',
+                  'rgba(54, 162, 235, 0.2)',
+                  'rgba(255, 206, 86, 0.2)',
+                  'rgba(75, 192, 192, 0.2)',
+            
+              ],
+              borderColor: [
+                  'rgba(255, 99, 132, 1)',
+                  'rgba(54, 162, 235, 1)',
+                  'rgba(255, 206, 86, 1)',
+                  'rgba(75, 192, 192, 1)',
+                  
+              ],
+              borderWidth: 1
+          }]
+      },
+      options: {
+        legend: {display: false},
+        scales: {
+          yAxes: [{ticks: {min: 1, max:10}}],
+        }
+      }
+  });
+  </script>
+{% endblock %}

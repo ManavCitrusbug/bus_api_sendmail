@@ -1,0 +1,308 @@
+footer {
+  position: relative;
+}
+
+.footer-div {
+  padding: 0 0;
+  margin: 0;
+  position: relative;
+  background-color: #fff;
+
+  .footer-logo-row {
+    margin: 0 0 40px 0;
+
+    .footer-logo-box-root {
+      .footer-logo-thumb {
+        .logo-link {
+          display: flex;
+        }
+
+        .footer-logo {
+          height: 35px;
+          object-fit: contain;
+        }
+      }
+    }
+  }
+
+  .footer-content-row {
+    padding: 0 0 0 0;
+
+    .whatsapp-div {
+      padding: 0 20px;
+      margin: 0;
+      position: relative;
+      background: url(../images/background/footer-bg-image-01.png) no-repeat;
+      background-position: top right;
+
+      .whatsapp-left-div {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        max-width: 1500px;
+        margin: 0 auto;
+
+        .img-div {
+          width: 180px;
+          display: flex;
+          flex-wrap: wrap;
+        }
+
+        .wh-app-div {
+          width: calc(100% - 180px);
+
+          .link-box {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            font-weight: 400;
+            font-size: 24px;
+            color: #555;
+            letter-spacing: 0;
+            line-height: 46px;
+            padding: 10px 0 8px 0;
+
+            .icon-span {
+              color: #37aa56;
+              font-size: 36px;
+              margin: 0 10px 0 0;
+            }
+
+            .text-light-wa {
+              font-weight: 400;
+              font-size: 24px;
+              color: #555;
+              letter-spacing: 0;
+              line-height: 46px;
+              font-family: "Montserrat", sans-serif;
+              margin: 0 8px 0 0;
+            }
+
+            .link.whatsapp-link {
+              font-family: "Montserrat", sans-serif;
+              color: inherit;
+              font-weight: 700;
+            }
+          }
+        }
+      }
+    }
+
+    .color-footer-row {
+      padding: 0;
+      margin: 0;
+      position: relative;
+      width: 100%;
+      background-color: #54c801;
+      min-height: 60px;
+      display: flex;
+    }
+  }
+
+  .footer-copyright-div {
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 60px;
+    max-width: 1170px;
+    align-items: center;
+
+    .footer-left-cp-div {
+      padding: 10px 0;
+
+      p {
+        font-weight: 500;
+        font-size: 13px;
+        color: #bfbfbf;
+        line-height: 18px;
+        display: inline-block;
+
+        a {
+          color: inherit;
+        }
+      }
+    }
+
+    .footer-right-cp-div {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding: 10px 0;
+
+      p {
+        font-weight: 500;
+        font-size: 16px;
+        color: #888;
+        letter-spacing: 0;
+        margin: 0;
+
+        a {
+          color: inherit;
+          transition: all 0.8s;
+
+          &:hover {
+            color: #555;
+          }
+        }
+
+        span.vline {
+          color: #e6e6e6;
+          padding: 0 15px;
+          display: inline-block;
+        }
+      }
+
+      .social-icon-div-root {
+        padding: 0 0 0 50px;
+
+        .social-link {
+          display: flex;
+          flex-wrap: wrap;
+          font-size: 16px;
+          color: #818892;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .footer-div {
+    .footer-content-row {
+      .whatsapp-div {
+        background-position: 70%;
+
+        .whatsapp-left-div {
+          .img-div {
+            width: 80px;
+
+            .img-fluid {
+              width: 80px;
+              object-fit: contain;
+            }
+          }
+
+          .wh-app-div {
+            width: calc(100% - 80px);
+
+            .link-box {
+              font-size: 14px;
+              line-height: 26px;
+              padding: 0;
+
+              .icon-span {
+                font-size: 24px;
+                margin: 0 5px 0 0;
+              }
+
+              .text-light-wa {
+                font-size: 14px;
+                line-height: 24px;
+                margin: 0 8px 0 0;
+              }
+            }
+          }
+        }
+      }
+
+      .color-footer-row {
+        min-height: 30px;
+      }
+    }
+
+    .footer-copyright-div {
+      .footer-left-cp-div {
+        width: 100%;
+        padding-bottom: 0;
+      }
+
+      .footer-right-cp-div {
+        width: 100%;
+        justify-content: space-between;
+
+        p {
+          font-size: 10px;
+
+          span.vline {
+            padding: 0 5px;
+          }
+        }
+
+        .social-icon-div-root {
+          .social-link {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .footer-div {
+    .footer-content-row {
+      .whatsapp-div {
+        background-position: 70%;
+
+        .whatsapp-left-div {
+          .img-div {
+            width: 80px;
+
+            .img-fluid {
+              width: 80px;
+              object-fit: contain;
+            }
+          }
+
+          .wh-app-div {
+            width: calc(100% - 80px);
+
+            .link-box {
+              font-size: 14px;
+              line-height: 26px;
+              padding: 0;
+
+              .icon-span {
+                font-size: 24px;
+                margin: 0 5px 0 0;
+              }
+
+              .text-light-wa {
+                font-size: 14px;
+                line-height: 24px;
+                margin: 0 8px 0 0;
+              }
+            }
+          }
+        }
+      }
+
+      .color-footer-row {
+        min-height: 30px;
+      }
+    }
+
+    .footer-copyright-div {
+      min-height: 42px;
+
+      .footer-right-cp-div {
+        p {
+          font-size: 10px;
+
+          span.vline {
+            padding: 0 5px;
+          }
+        }
+
+        .social-icon-div-root {
+          .social-link {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}

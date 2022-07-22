@@ -1,0 +1,63 @@
+{% extends 'customadmin/change_list.html' %}
+{% load static %}
+{% load admin_extras %}
+{% load misc_filters %}
+{% load i18n %}
+
+
+{% block page_content %}
+    {% csrf_token %}
+    {{post.count}}
+    <div class="float-right lead my-3">
+        <a href="{% url 'customadmin:post-create' %}" class="btn btn-primary btn-lg"><i class="fa fa-plus"></i> New Create</a>
+      </div> 
+    <div class="ibox float-e-margins">
+        <div class="ibox-content">
+            <div class="table-responsive">
+                <table class="table table-striped table-bordered table-hover" id="{{ opts.model_name }}-table">
+                    <thead>
+                        <tr>
+                            <th>Title</th>
+                            <th>User</th>
+                            <th>Category</th>
+                            <th>Content</th>
+                            <th>Post_image</th>
+                            <th>Soft-delete</th>
+                        </tr>
+                    </thead>
+                  
+                    <tbody>
+                        {% for o in post %}
+                        <tr>
+                            <td>{{ o.title }}</td>
+                            <td>{{ o.user }}</td>
+                            <td>{{ o.category }}</td>
+                            <td>{{ o.content|slice:"0:100" }}</td>
+                            {% if o.post_image.url|length > 0 %}
+                            {{o.profile.picture.url}}
+                            <td height="80px" width="180px"><a href="/customadmin/posts/{{o.id}}/detail">
+                                <img src="{{o.post_image.url}}" width="180px" height="80x" alt="">
+                            </a></td>
+                            {% else %}
+                            <td>No image</td>
+                            {% endif %}
+                            <td>{% show_check o.soft_delete %}</td>
+                            <td class="row-actions">
+                            </td>
+                            <td class="row-actions">
+                                {% include "customadmin/partials/list_row_more_actions.html" %}
+                            </td>
+                            <td class="row-actions">
+                                <a href="{% url 'customadmin:post-archive' pk=o.pk %}">
+                                    <button class="btn btn-primary">Archive</button>
+                                </a>
+                            </td>
+                        </tr>   
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div> 
+
+{% endblock page_content %}
